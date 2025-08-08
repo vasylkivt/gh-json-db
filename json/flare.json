@@ -1,2277 +1,2354 @@
 {
   "rpc": [
     {
-      "flare-mainnet-public": {
-        "provider": "Flare",
-        "plan": "Free",
-        "nodeType": "Recent-State",
-        "chain": "mainnet",
-        "accessPrice": 0,
-        "queryPrice": 0,
-        "uptimeSla": null,
-        "bandwidthSla": null,
-        "blocksBehindSla": null,
-        "starred": "TRUE",
-        "trial": "FALSE",
-        "availableApis": ["eth", "web3", "net"],
-        "limitations": ["~1000 req/min"],
-        "securityImprovements": ["DDoS Protection", "IP Protection"],
-        "monitoringAndAnalytics": ["Basic monitoring"],
-        "regions": ["Global"],
-        "verefiedUptime": null,
-        "averageLatency": null,
-        "verifiedUptimeBlocksAvg": null,
-        "actionButtons": [
-          {
-            "label": "Docs",
-            "url": "https://dev.flare.network/network/overview",
-            "type": "external"
-          }
-        ]
-      },
-      "flare-coston2-public": {
-        "provider": "Flare",
-        "plan": "Free",
-        "nodeType": "Recent-State",
-        "chain": "Coston2",
-        "accessPrice": 0,
-        "queryPrice": 0,
-        "uptimeSla": null,
-        "bandwidthSla": null,
-        "blocksBehindSla": null,
-        "starred": "TRUE",
-        "trial": "FALSE",
-        "availableApis": ["eth", "web3", "net"],
-        "limitations": ["~1000 req/min"],
-        "securityImprovements": ["DDoS Protection", "IP Protection"],
-        "monitoringAndAnalytics": ["Basic monitoring"],
-        "regions": ["Global"],
-        "verefiedUptime": null,
-        "averageLatency": null,
-        "verifiedUptimeBlocksAvg": null,
-        "actionButtons": [
-          {
-            "label": "Docs",
-            "url": "https://docs.flare.network/dev/reference/coston2-testnet/",
-            "type": "external"
-          }
-        ]
-      },
-      "flare-songbird-public": {
-        "provider": "Flare",
-        "plan": "Free",
-        "nodeType": "Recent-State",
-        "chain": "Songbird",
-        "accessPrice": 0,
-        "queryPrice": 0,
-        "uptimeSla": null,
-        "bandwidthSla": null,
-        "blocksBehindSla": null,
-        "starred": "TRUE",
-        "trial": "FALSE",
-        "availableApis": ["eth", "web3", "net"],
-        "limitations": ["~1000 req/min"],
-        "securityImprovements": ["DDoS Protection", "IP Protection"],
-        "monitoringAndAnalytics": ["Basic monitoring"],
-        "regions": ["Global"],
-        "verefiedUptime": null,
-        "averageLatency": null,
-        "verifiedUptimeBlocksAvg": null,
-        "actionButtons": [
-          {
-            "label": "Docs",
-            "url": "https://dev.flare.network/network/overview",
-            "type": "external"
-          }
-        ]
-      },
-      "flare-coston-public": {
-        "provider": "Flare",
-        "plan": "Free",
-        "nodeType": "Recent-State",
-        "chain": "Coston",
-        "accessPrice": 0,
-        "queryPrice": 0,
-        "uptimeSla": null,
-        "bandwidthSla": null,
-        "blocksBehindSla": null,
-        "starred": "TRUE",
-        "trial": "FALSE",
-        "availableApis": ["eth", "web3", "net"],
-        "limitations": ["~1000 req/min"],
-        "securityImprovements": ["DDoS Protection", "IP Protection"],
-        "monitoringAndAnalytics": ["Basic monitoring"],
-        "regions": ["Global"],
-        "verefiedUptime": null,
-        "averageLatency": null,
-        "verifiedUptimeBlocksAvg": null,
-        "actionButtons": [
-          {
-            "label": "Docs",
-            "url": "https://dev.flare.network/network/overview",
-            "type": "external"
-          }
-        ]
-      },
-      "ankr-mainnet-free": {
-        "provider": "Ankr",
-        "plan": "Free",
-        "nodeType": "Recent-State",
-        "chain": "mainnet",
-        "accessPrice": 0,
-        "queryPrice": "$0 per 1M requests",
-        "uptimeSla": "no",
-        "bandwidthSla": null,
-        "blocksBehindSla": null,
-        "starred": "TRUE",
-        "trial": "FALSE",
-        "availableApis": ["eth", "web3", "net"],
-        "limitations": ["~1800 req/min"],
-        "securityImprovements": ["DDoS Protection", "IP Protection"],
-        "monitoringAndAnalytics": ["Usage analytics", "Community support"],
-        "regions": ["Global"],
-        "verefiedUptime": null,
-        "averageLatency": null,
-        "verifiedUptimeBlocksAvg": null,
-        "actionButtons": [
-          {
-            "label": "Buy",
-            "url": "https://www.ankr.com/rpc/flare",
-            "type": "external"
-          },
-          {
-            "label": "Docs",
-            "url": "https://www.ankr.com/docs/",
-            "type": "external"
-          }
-        ]
-      },
-      "ankr-mainnet-growth": {
-        "provider": "Ankr",
-        "plan": "Pay-As-You-Go",
-        "nodeType": "Recent-State",
-        "chain": "mainnet",
-        "accessPrice": "$10 included into query fees",
-        "queryPrice": "$20 per 1M requests",
-        "uptimeSla": "no",
-        "bandwidthSla": null,
-        "blocksBehindSla": null,
-        "starred": "FALSE",
-        "trial": "FALSE",
-        "availableApis": ["eth", "web3", "net"],
-        "limitations": ["up to 90k req/min"],
-        "securityImprovements": ["DDoS Protection", "IP Protection"],
-        "monitoringAndAnalytics": [
-          "Usage analytics",
-          "Custom monitoring",
-          "Support portal"
-        ],
-        "regions": ["Global"],
-        "verefiedUptime": null,
-        "averageLatency": null,
-        "verifiedUptimeBlocksAvg": null,
-        "actionButtons": [
-          {
-            "label": "Buy",
-            "url": "https://www.ankr.com/rpc/flare",
-            "type": "external"
-          },
-          {
-            "label": "Docs",
-            "url": "https://www.ankr.com/docs/",
-            "type": "external"
-          }
-        ]
-      },
-      "ankr-mainnet-enterprise": {
-        "provider": "Ankr",
-        "plan": "Enterprise",
-        "nodeType": "Recent-State",
-        "chain": "mainnet",
-        "accessPrice": "$1000 included into query fees",
-        "queryPrice": "Custom",
-        "uptimeSla": "custom SLA",
-        "bandwidthSla": null,
-        "blocksBehindSla": null,
-        "starred": "FALSE",
-        "trial": "FALSE",
-        "availableApis": ["eth", "web3", "net"],
-        "limitations": ["up to 900k req/min"],
-        "securityImprovements": [
-          "DDoS Protection",
-          "IP Protection",
-          "Dedicated infrastructure"
-        ],
-        "monitoringAndAnalytics": [
-          "Usage analytics",
-          "Custom monitoring",
-          "Engineering team support"
-        ],
-        "regions": ["Global"],
-        "verefiedUptime": null,
-        "averageLatency": null,
-        "verifiedUptimeBlocksAvg": null,
-        "actionButtons": [
-          {
-            "label": "Buy",
-            "url": "https://www.ankr.com/rpc/flare",
-            "type": "external"
-          },
-          {
-            "label": "Docs",
-            "url": "https://www.ankr.com/docs/",
-            "type": "external"
-          }
-        ]
-      },
-      "quicknode-coston2-free": {
-        "provider": "QuickNode",
-        "plan": "Free",
-        "nodeType": "Recent-State",
-        "chain": "Coston2",
-        "accessPrice": 0,
-        "queryPrice": 0,
-        "uptimeSla": null,
-        "bandwidthSla": null,
-        "blocksBehindSla": null,
-        "starred": "TRUE",
-        "trial": "FALSE",
-        "availableApis": ["eth", "web3", "net"],
-        "limitations": ["~1000 req/min"],
-        "securityImprovements": ["DDoS Protection", "IP Protection"],
-        "monitoringAndAnalytics": ["Usage analytics"],
-        "regions": ["Global"],
-        "verefiedUptime": null,
-        "averageLatency": null,
-        "verifiedUptimeBlocksAvg": null,
-        "actionButtons": [
-          {
-            "label": "Buy",
-            "url": "https://www.quicknode.com/",
-            "type": "external"
-          },
-          {
-            "label": "Docs",
-            "url": "https://www.quicknode.com/docs/flare",
-            "type": "external"
-          }
-        ]
-      },
-      "quicknode-mainnet-free": {
-        "provider": "QuickNode",
-        "plan": "Free",
-        "nodeType": "Recent-State",
-        "chain": "mainnet",
-        "accessPrice": 0,
-        "queryPrice": 0,
-        "uptimeSla": null,
-        "bandwidthSla": null,
-        "blocksBehindSla": null,
-        "starred": "TRUE",
-        "trial": "FALSE",
-        "availableApis": ["eth", "web3", "net"],
-        "limitations": ["~1000 req/min"],
-        "securityImprovements": ["DDoS Protection", "IP Protection"],
-        "monitoringAndAnalytics": ["Usage analytics"],
-        "regions": ["Global"],
-        "verefiedUptime": null,
-        "averageLatency": null,
-        "verifiedUptimeBlocksAvg": null,
-        "actionButtons": [
-          {
-            "label": "Buy",
-            "url": "https://www.quicknode.com/",
-            "type": "external"
-          },
-          {
-            "label": "Docs",
-            "url": "https://www.quicknode.com/docs/flare",
-            "type": "external"
-          }
-        ]
-      },
-      "quicknode-mainnet-growth": {
-        "provider": "QuickNode",
-        "plan": "Pay-As-You-Go",
-        "nodeType": "Recent-State",
-        "chain": "mainnet",
-        "accessPrice": "$49/$249/$500//$999 included into query fees",
-        "queryPrice": "$10-24.8 per 1M requests",
-        "uptimeSla": null,
-        "bandwidthSla": null,
-        "blocksBehindSla": null,
-        "starred": "FALSE",
-        "trial": "FALSE",
-        "availableApis": ["eth", "web3", "net"],
-        "limitations": ["3k / 7.5k / 15k /30k req/min"],
-        "securityImprovements": ["DDoS Protection", "IP Protection"],
-        "monitoringAndAnalytics": ["Usage analytics", "Custom monitoring"],
-        "regions": ["Global"],
-        "verefiedUptime": null,
-        "averageLatency": null,
-        "verifiedUptimeBlocksAvg": null,
-        "actionButtons": [
-          {
-            "label": "Buy",
-            "url": "https://www.quicknode.com/",
-            "type": "external"
-          },
-          {
-            "label": "Docs",
-            "url": "https://www.quicknode.com/docs/flare",
-            "type": "external"
-          }
-        ]
-      },
-      "quicknode-mainnet-enterprise": {
-        "provider": "QuickNode",
-        "plan": "Enterprise",
-        "nodeType": "Recent-State",
-        "chain": "mainnet",
-        "accessPrice": "Custom",
-        "queryPrice": "Custom",
-        "uptimeSla": "commited SLA",
-        "bandwidthSla": null,
-        "blocksBehindSla": null,
-        "starred": "FALSE",
-        "trial": "FALSE",
-        "availableApis": ["eth", "web3", "net"],
-        "limitations": ["Custom limits"],
-        "securityImprovements": [
-          "DDoS Protection",
-          "IP Protection",
-          "Dedicated infrastructure"
-        ],
-        "monitoringAndAnalytics": ["Advanced analytics", "Custom monitoring"],
-        "regions": ["Global"],
-        "verefiedUptime": null,
-        "averageLatency": null,
-        "verifiedUptimeBlocksAvg": null,
-        "actionButtons": [
-          {
-            "label": "Buy",
-            "url": "https://www.quicknode.com/",
-            "type": "external"
-          },
-          {
-            "label": "Docs",
-            "url": "https://www.quicknode.com/docs/flare",
-            "type": "external"
-          }
-        ]
-      },
-      "nownodes-mainnet-free": {
-        "provider": "NOWNodes",
-        "plan": "Free",
-        "nodeType": "Recent-State",
-        "chain": "mainnet",
-        "accessPrice": 0,
-        "queryPrice": "Free (100,000 included only)",
-        "uptimeSla": null,
-        "bandwidthSla": null,
-        "blocksBehindSla": null,
-        "starred": "TRUE",
-        "trial": "FALSE",
-        "availableApis": ["eth", "web3", "net"],
-        "limitations": [
-          "100k requests, no more than 1 month, no more than 1 key"
-        ],
-        "securityImprovements": ["DDoS Protection", "IP Protection"],
-        "monitoringAndAnalytics": ["Usage analytics"],
-        "regions": ["Global"],
-        "verefiedUptime": null,
-        "averageLatency": null,
-        "verifiedUptimeBlocksAvg": null,
-        "actionButtons": [
-          {
-            "label": "Buy",
-            "url": "https://nownodes.io/nodes/flare",
-            "type": "external"
-          },
-          {
-            "label": "Docs",
-            "url": "https://nownodes.gitbook.io/documentation-1/nodeapis",
-            "type": "external"
-          }
-        ]
-      },
-      "nownodes-mainnet-growth": {
-        "provider": "NOWNodes",
-        "plan": "Pay-As-You-Go",
-        "nodeType": "Recent-State",
-        "chain": "mainnet",
-        "accessPrice": "€20 / €200/ € 500 included into requests, yearly 10% discount",
-        "queryPrice": "€50 / €10 / €5 million per 1M requests",
-        "uptimeSla": null,
-        "bandwidthSla": null,
-        "blocksBehindSla": null,
-        "starred": "FALSE",
-        "trial": "TRUE",
-        "availableApis": ["eth", "web3", "net"],
-        "limitations": ["1M / 30M / 100M req/month, 3 / 25 / 100 api key"],
-        "securityImprovements": ["DDoS Protection", "IP Protection"],
-        "monitoringAndAnalytics": ["Usage analytics"],
-        "regions": ["Global"],
-        "verefiedUptime": null,
-        "averageLatency": null,
-        "verifiedUptimeBlocksAvg": null,
-        "actionButtons": [
-          {
-            "label": "Buy",
-            "url": "https://nownodes.io/nodes/flare",
-            "type": "external"
-          },
-          {
-            "label": "Docs",
-            "url": "https://nownodes.gitbook.io/documentation-1/nodeapis",
-            "type": "external"
-          }
-        ]
-      },
-      "ankr-coston-free": {
-        "provider": "Ankr",
-        "plan": "Free",
-        "nodeType": "Recent-State",
-        "chain": "Coston",
-        "accessPrice": 0,
-        "queryPrice": 0,
-        "uptimeSla": null,
-        "bandwidthSla": null,
-        "blocksBehindSla": null,
-        "starred": "TRUE",
-        "trial": "FALSE",
-        "availableApis": ["eth", "web3", "net"],
-        "limitations": ["~1800 req/min"],
-        "securityImprovements": ["DDoS Protection", "IP Protection"],
-        "monitoringAndAnalytics": ["Usage analytics"],
-        "regions": ["Global"],
-        "verefiedUptime": null,
-        "averageLatency": null,
-        "verifiedUptimeBlocksAvg": null,
-        "actionButtons": [
-          {
-            "label": "Buy",
-            "url": "https://www.ankr.com/rpc/flare",
-            "type": "external"
-          },
-          {
-            "label": "Docs",
-            "url": "https://www.ankr.com/docs/",
-            "type": "external"
-          }
-        ]
-      },
-      "ankr-coston2-free": {
-        "provider": "Ankr",
-        "plan": "Free",
-        "nodeType": "Recent-State",
-        "chain": "Coston2",
-        "accessPrice": 0,
-        "queryPrice": 0,
-        "uptimeSla": null,
-        "bandwidthSla": null,
-        "blocksBehindSla": null,
-        "starred": "TRUE",
-        "trial": "FALSE",
-        "availableApis": ["eth", "web3", "net"],
-        "limitations": ["~1800 req/min"],
-        "securityImprovements": ["DDoS Protection", "IP Protection"],
-        "monitoringAndAnalytics": ["Usage analytics"],
-        "regions": ["Global"],
-        "verefiedUptime": null,
-        "averageLatency": null,
-        "verifiedUptimeBlocksAvg": null,
-        "actionButtons": [
-          {
-            "label": "Buy",
-            "url": "https://www.ankr.com/rpc/flare",
-            "type": "external"
-          },
-          {
-            "label": "Docs",
-            "url": "https://www.ankr.com/docs/",
-            "type": "external"
-          }
-        ]
-      }
+      "slug": "flare-mainnet-public",
+      "provider": "Flare",
+      "plan": "Free",
+      "nodeType": "Recent-State",
+      "chain": "mainnet",
+      "accessPrice": 0,
+      "queryPrice": 0,
+      "uptimeSla": null,
+      "bandwidthSla": null,
+      "blocksBehindSla": null,
+      "starred": "TRUE",
+      "trial": "FALSE",
+      "availableApis": ["eth", "web3", "net"],
+      "limitations": ["~1000 req/min"],
+      "securityImprovements": ["DDoS Protection", "IP Protection"],
+      "monitoringAndAnalytics": ["Basic monitoring"],
+      "regions": ["Global"],
+      "verefiedUptime": null,
+      "averageLatency": null,
+      "verifiedUptimeBlocksAvg": null,
+      "actionButtons": [
+        {
+          "label": "Docs",
+          "url": "https://dev.flare.network/network/overview",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "flare-coston2-public",
+      "provider": "Flare",
+      "plan": "Free",
+      "nodeType": "Recent-State",
+      "chain": "Coston2",
+      "accessPrice": 0,
+      "queryPrice": 0,
+      "uptimeSla": null,
+      "bandwidthSla": null,
+      "blocksBehindSla": null,
+      "starred": "TRUE",
+      "trial": "FALSE",
+      "availableApis": ["eth", "web3", "net"],
+      "limitations": ["~1000 req/min"],
+      "securityImprovements": ["DDoS Protection", "IP Protection"],
+      "monitoringAndAnalytics": ["Basic monitoring"],
+      "regions": ["Global"],
+      "verefiedUptime": null,
+      "averageLatency": null,
+      "verifiedUptimeBlocksAvg": null,
+      "actionButtons": [
+        {
+          "label": "Docs",
+          "url": "https://docs.flare.network/dev/reference/coston2-testnet/",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "flare-songbird-public",
+      "provider": "Flare",
+      "plan": "Free",
+      "nodeType": "Recent-State",
+      "chain": "Songbird",
+      "accessPrice": 0,
+      "queryPrice": 0,
+      "uptimeSla": null,
+      "bandwidthSla": null,
+      "blocksBehindSla": null,
+      "starred": "TRUE",
+      "trial": "FALSE",
+      "availableApis": ["eth", "web3", "net"],
+      "limitations": ["~1000 req/min"],
+      "securityImprovements": ["DDoS Protection", "IP Protection"],
+      "monitoringAndAnalytics": ["Basic monitoring"],
+      "regions": ["Global"],
+      "verefiedUptime": null,
+      "averageLatency": null,
+      "verifiedUptimeBlocksAvg": null,
+      "actionButtons": [
+        {
+          "label": "Docs",
+          "url": "https://dev.flare.network/network/overview",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "flare-coston-public",
+      "provider": "Flare",
+      "plan": "Free",
+      "nodeType": "Recent-State",
+      "chain": "Coston",
+      "accessPrice": 0,
+      "queryPrice": 0,
+      "uptimeSla": null,
+      "bandwidthSla": null,
+      "blocksBehindSla": null,
+      "starred": "TRUE",
+      "trial": "FALSE",
+      "availableApis": ["eth", "web3", "net"],
+      "limitations": ["~1000 req/min"],
+      "securityImprovements": ["DDoS Protection", "IP Protection"],
+      "monitoringAndAnalytics": ["Basic monitoring"],
+      "regions": ["Global"],
+      "verefiedUptime": null,
+      "averageLatency": null,
+      "verifiedUptimeBlocksAvg": null,
+      "actionButtons": [
+        {
+          "label": "Docs",
+          "url": "https://dev.flare.network/network/overview",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "ankr-mainnet-free",
+      "provider": "Ankr",
+      "plan": "Free",
+      "nodeType": "Recent-State",
+      "chain": "mainnet",
+      "accessPrice": 0,
+      "queryPrice": "$0 per 1M requests",
+      "uptimeSla": "no",
+      "bandwidthSla": null,
+      "blocksBehindSla": null,
+      "starred": "TRUE",
+      "trial": "FALSE",
+      "availableApis": ["eth", "web3", "net"],
+      "limitations": ["~1800 req/min"],
+      "securityImprovements": ["DDoS Protection", "IP Protection"],
+      "monitoringAndAnalytics": ["Usage analytics", "Community support"],
+      "regions": ["Global"],
+      "verefiedUptime": null,
+      "averageLatency": null,
+      "verifiedUptimeBlocksAvg": null,
+      "actionButtons": [
+        {
+          "label": "Buy",
+          "url": "https://www.ankr.com/rpc/flare",
+          "type": "external"
+        },
+        {
+          "label": "Docs",
+          "url": "https://www.ankr.com/docs/",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "ankr-mainnet-growth",
+      "provider": "Ankr",
+      "plan": "Pay-As-You-Go",
+      "nodeType": "Recent-State",
+      "chain": "mainnet",
+      "accessPrice": "$10 included into query fees",
+      "queryPrice": "$20 per 1M requests",
+      "uptimeSla": "no",
+      "bandwidthSla": null,
+      "blocksBehindSla": null,
+      "starred": "FALSE",
+      "trial": "FALSE",
+      "availableApis": ["eth", "web3", "net"],
+      "limitations": ["up to 90k req/min"],
+      "securityImprovements": ["DDoS Protection", "IP Protection"],
+      "monitoringAndAnalytics": [
+        "Usage analytics",
+        "Custom monitoring",
+        "Support portal"
+      ],
+      "regions": ["Global"],
+      "verefiedUptime": null,
+      "averageLatency": null,
+      "verifiedUptimeBlocksAvg": null,
+      "actionButtons": [
+        {
+          "label": "Buy",
+          "url": "https://www.ankr.com/rpc/flare",
+          "type": "external"
+        },
+        {
+          "label": "Docs",
+          "url": "https://www.ankr.com/docs/",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "ankr-mainnet-enterprise",
+      "provider": "Ankr",
+      "plan": "Enterprise",
+      "nodeType": "Recent-State",
+      "chain": "mainnet",
+      "accessPrice": "$1000 included into query fees",
+      "queryPrice": "Custom",
+      "uptimeSla": "custom SLA",
+      "bandwidthSla": null,
+      "blocksBehindSla": null,
+      "starred": "FALSE",
+      "trial": "FALSE",
+      "availableApis": ["eth", "web3", "net"],
+      "limitations": ["up to 900k req/min"],
+      "securityImprovements": [
+        "DDoS Protection",
+        "IP Protection",
+        "Dedicated infrastructure"
+      ],
+      "monitoringAndAnalytics": [
+        "Usage analytics",
+        "Custom monitoring",
+        "Engineering team support"
+      ],
+      "regions": ["Global"],
+      "verefiedUptime": null,
+      "averageLatency": null,
+      "verifiedUptimeBlocksAvg": null,
+      "actionButtons": [
+        {
+          "label": "Buy",
+          "url": "https://www.ankr.com/rpc/flare",
+          "type": "external"
+        },
+        {
+          "label": "Docs",
+          "url": "https://www.ankr.com/docs/",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "quicknode-coston2-free",
+      "provider": "QuickNode",
+      "plan": "Free",
+      "nodeType": "Recent-State",
+      "chain": "Coston2",
+      "accessPrice": 0,
+      "queryPrice": 0,
+      "uptimeSla": null,
+      "bandwidthSla": null,
+      "blocksBehindSla": null,
+      "starred": "TRUE",
+      "trial": "FALSE",
+      "availableApis": ["eth", "web3", "net"],
+      "limitations": ["~1000 req/min"],
+      "securityImprovements": ["DDoS Protection", "IP Protection"],
+      "monitoringAndAnalytics": ["Usage analytics"],
+      "regions": ["Global"],
+      "verefiedUptime": null,
+      "averageLatency": null,
+      "verifiedUptimeBlocksAvg": null,
+      "actionButtons": [
+        {
+          "label": "Buy",
+          "url": "https://www.quicknode.com/",
+          "type": "external"
+        },
+        {
+          "label": "Docs",
+          "url": "https://www.quicknode.com/docs/flare",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "quicknode-mainnet-free",
+      "provider": "QuickNode",
+      "plan": "Free",
+      "nodeType": "Recent-State",
+      "chain": "mainnet",
+      "accessPrice": 0,
+      "queryPrice": 0,
+      "uptimeSla": null,
+      "bandwidthSla": null,
+      "blocksBehindSla": null,
+      "starred": "TRUE",
+      "trial": "FALSE",
+      "availableApis": ["eth", "web3", "net"],
+      "limitations": ["~1000 req/min"],
+      "securityImprovements": ["DDoS Protection", "IP Protection"],
+      "monitoringAndAnalytics": ["Usage analytics"],
+      "regions": ["Global"],
+      "verefiedUptime": null,
+      "averageLatency": null,
+      "verifiedUptimeBlocksAvg": null,
+      "actionButtons": [
+        {
+          "label": "Buy",
+          "url": "https://www.quicknode.com/",
+          "type": "external"
+        },
+        {
+          "label": "Docs",
+          "url": "https://www.quicknode.com/docs/flare",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "quicknode-mainnet-growth",
+      "provider": "QuickNode",
+      "plan": "Pay-As-You-Go",
+      "nodeType": "Recent-State",
+      "chain": "mainnet",
+      "accessPrice": "$49/$249/$500//$999 included into query fees",
+      "queryPrice": "$10-24.8 per 1M requests",
+      "uptimeSla": null,
+      "bandwidthSla": null,
+      "blocksBehindSla": null,
+      "starred": "FALSE",
+      "trial": "FALSE",
+      "availableApis": ["eth", "web3", "net"],
+      "limitations": ["3k / 7.5k / 15k /30k req/min"],
+      "securityImprovements": ["DDoS Protection", "IP Protection"],
+      "monitoringAndAnalytics": ["Usage analytics", "Custom monitoring"],
+      "regions": ["Global"],
+      "verefiedUptime": null,
+      "averageLatency": null,
+      "verifiedUptimeBlocksAvg": null,
+      "actionButtons": [
+        {
+          "label": "Buy",
+          "url": "https://www.quicknode.com/",
+          "type": "external"
+        },
+        {
+          "label": "Docs",
+          "url": "https://www.quicknode.com/docs/flare",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "quicknode-mainnet-enterprise",
+      "provider": "QuickNode",
+      "plan": "Enterprise",
+      "nodeType": "Recent-State",
+      "chain": "mainnet",
+      "accessPrice": "Custom",
+      "queryPrice": "Custom",
+      "uptimeSla": "commited SLA",
+      "bandwidthSla": null,
+      "blocksBehindSla": null,
+      "starred": "FALSE",
+      "trial": "FALSE",
+      "availableApis": ["eth", "web3", "net"],
+      "limitations": ["Custom limits"],
+      "securityImprovements": [
+        "DDoS Protection",
+        "IP Protection",
+        "Dedicated infrastructure"
+      ],
+      "monitoringAndAnalytics": ["Advanced analytics", "Custom monitoring"],
+      "regions": ["Global"],
+      "verefiedUptime": null,
+      "averageLatency": null,
+      "verifiedUptimeBlocksAvg": null,
+      "actionButtons": [
+        {
+          "label": "Buy",
+          "url": "https://www.quicknode.com/",
+          "type": "external"
+        },
+        {
+          "label": "Docs",
+          "url": "https://www.quicknode.com/docs/flare",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "nownodes-mainnet-free",
+      "provider": "NOWNodes",
+      "plan": "Free",
+      "nodeType": "Recent-State",
+      "chain": "mainnet",
+      "accessPrice": 0,
+      "queryPrice": "Free (100,000 included only)",
+      "uptimeSla": null,
+      "bandwidthSla": null,
+      "blocksBehindSla": null,
+      "starred": "TRUE",
+      "trial": "FALSE",
+      "availableApis": ["eth", "web3", "net"],
+      "limitations": [
+        "100k requests, no more than 1 month, no more than 1 key"
+      ],
+      "securityImprovements": ["DDoS Protection", "IP Protection"],
+      "monitoringAndAnalytics": ["Usage analytics"],
+      "regions": ["Global"],
+      "verefiedUptime": null,
+      "averageLatency": null,
+      "verifiedUptimeBlocksAvg": null,
+      "actionButtons": [
+        {
+          "label": "Buy",
+          "url": "https://nownodes.io/nodes/flare",
+          "type": "external"
+        },
+        {
+          "label": "Docs",
+          "url": "https://nownodes.gitbook.io/documentation-1/nodeapis",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "nownodes-mainnet-growth",
+      "provider": "NOWNodes",
+      "plan": "Pay-As-You-Go",
+      "nodeType": "Recent-State",
+      "chain": "mainnet",
+      "accessPrice": "€20 / €200/ € 500 included into requests, yearly 10% discount",
+      "queryPrice": "€50 / €10 / €5 million per 1M requests",
+      "uptimeSla": null,
+      "bandwidthSla": null,
+      "blocksBehindSla": null,
+      "starred": "FALSE",
+      "trial": "TRUE",
+      "availableApis": ["eth", "web3", "net"],
+      "limitations": ["1M / 30M / 100M req/month, 3 / 25 / 100 api key"],
+      "securityImprovements": ["DDoS Protection", "IP Protection"],
+      "monitoringAndAnalytics": ["Usage analytics"],
+      "regions": ["Global"],
+      "verefiedUptime": null,
+      "averageLatency": null,
+      "verifiedUptimeBlocksAvg": null,
+      "actionButtons": [
+        {
+          "label": "Buy",
+          "url": "https://nownodes.io/nodes/flare",
+          "type": "external"
+        },
+        {
+          "label": "Docs",
+          "url": "https://nownodes.gitbook.io/documentation-1/nodeapis",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "ankr-coston-free",
+      "provider": "Ankr",
+      "plan": "Free",
+      "nodeType": "Recent-State",
+      "chain": "Coston",
+      "accessPrice": 0,
+      "queryPrice": 0,
+      "uptimeSla": null,
+      "bandwidthSla": null,
+      "blocksBehindSla": null,
+      "starred": "TRUE",
+      "trial": "FALSE",
+      "availableApis": ["eth", "web3", "net"],
+      "limitations": ["~1800 req/min"],
+      "securityImprovements": ["DDoS Protection", "IP Protection"],
+      "monitoringAndAnalytics": ["Usage analytics"],
+      "regions": ["Global"],
+      "verefiedUptime": null,
+      "averageLatency": null,
+      "verifiedUptimeBlocksAvg": null,
+      "actionButtons": [
+        {
+          "label": "Buy",
+          "url": "https://www.ankr.com/rpc/flare",
+          "type": "external"
+        },
+        {
+          "label": "Docs",
+          "url": "https://www.ankr.com/docs/",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "ankr-coston2-free",
+      "provider": "Ankr",
+      "plan": "Free",
+      "nodeType": "Recent-State",
+      "chain": "Coston2",
+      "accessPrice": 0,
+      "queryPrice": 0,
+      "uptimeSla": null,
+      "bandwidthSla": null,
+      "blocksBehindSla": null,
+      "starred": "TRUE",
+      "trial": "FALSE",
+      "availableApis": ["eth", "web3", "net"],
+      "limitations": ["~1800 req/min"],
+      "securityImprovements": ["DDoS Protection", "IP Protection"],
+      "monitoringAndAnalytics": ["Usage analytics"],
+      "regions": ["Global"],
+      "verefiedUptime": null,
+      "averageLatency": null,
+      "verifiedUptimeBlocksAvg": null,
+      "actionButtons": [
+        {
+          "label": "Buy",
+          "url": "https://www.ankr.com/rpc/flare",
+          "type": "external"
+        },
+        {
+          "label": "Docs",
+          "url": "https://www.ankr.com/docs/",
+          "type": "external"
+        }
+      ]
     }
   ],
   "indexing": [
     {
-      "goldsky-mainnet-free": {
-        "provider": "Goldsky",
-        "chain": "mainnet",
-        "address": null,
-        "image": null,
-        "technology": "Subgraph Indexing",
-        "plan": "FREE",
-        "trial": "FALSE",
-        "accessPrice": 0,
-        "queryPrice": 0,
-        "starred": "TRUE",
-        "availableApis": ["GraphQL"],
-        "limitations": ["20 RPC/10s <= 100,000 entities stored"],
-        "securityImprovements": ["DDoS Protection", "IP Protection"],
-        "monitoringAndAnalytics": ["Subgraph logs", "Usage analytics"],
-        "regions": ["Global"],
-        "additionalFeatures": ["Mirror", "Email support"],
-        "verifiedUptime": null,
-        "verifiedLatency": null,
-        "verifiedBlocksBehindAvg": null,
-        "actionButtons": [
-          {
-            "label": "Buy",
-            "url": "https://app.goldsky.com/",
-            "type": "external"
-          },
-          {
-            "label": "Docs",
-            "url": "https://docs.goldsky.com/chains/flare#indexing-flare-with-goldsky",
-            "type": "external"
-          }
-        ]
-      },
-      "goldsky-mainnet-pro": {
-        "provider": "Goldsky",
-        "chain": "mainnet",
-        "address": null,
-        "image": null,
-        "technology": "Subgraph Indexing",
-        "plan": "SCALE",
-        "trial": "TRUE",
-        "accessPrice": null,
-        "queryPrice": null,
-        "starred": "FALSE",
-        "availableApis": ["GraphQL"],
-        "limitations": [
-          "50 RPC/10s $4 additionaly per 100,000 entities stored"
-        ],
-        "securityImprovements": ["DDoS Protection", "IP Protection"],
-        "monitoringAndAnalytics": ["Subgraph logs", "Usage analytics"],
-        "regions": ["Global"],
-        "additionalFeatures": ["Mirror", "Email support", "Custom indexing"],
-        "verifiedUptime": null,
-        "verifiedLatency": null,
-        "verifiedBlocksBehindAvg": null,
-        "actionButtons": [
-          {
-            "label": "Buy",
-            "url": "https://app.goldsky.com/",
-            "type": "external"
-          },
-          {
-            "label": "Docs",
-            "url": "https://docs.goldsky.com/chains/flare#indexing-flare-with-goldsky",
-            "type": "external"
-          }
-        ]
-      },
-      "goldsky-mainnet-enterprise": {
-        "provider": "Goldsky",
-        "chain": "mainnet",
-        "address": null,
-        "image": null,
-        "technology": "Subgraph Indexing",
-        "plan": "Enterprise",
-        "trial": "FALSE",
-        "accessPrice": null,
-        "queryPrice": null,
-        "starred": "FALSE",
-        "availableApis": ["GraphQL"],
-        "limitations": ["1000+ RPC/10s 1$ per 100,000 entities stored"],
-        "securityImprovements": [
-          "DDoS Protection",
-          "IP Protection",
-          "Dedicated infrastructure"
-        ],
-        "monitoringAndAnalytics": [
-          "Subgraph logs",
-          "Usage analytics",
-          "Custom dashboards"
-        ],
-        "regions": ["Global"],
-        "additionalFeatures": [
-          "Mirror",
-          "Slack and Email support",
-          "Managed onboarding",
-          "White-label endpoints",
-          "Customized caching"
-        ],
-        "verifiedUptime": null,
-        "verifiedLatency": null,
-        "verifiedBlocksBehindAvg": null,
-        "actionButtons": [
-          {
-            "label": "Buy",
-            "url": "https://app.goldsky.com/",
-            "type": "external"
-          },
-          {
-            "label": "Docs",
-            "url": "https://docs.goldsky.com/chains/flare#indexing-flare-with-goldsky",
-            "type": "external"
-          }
-        ]
-      },
-      "goldsky-coston2-free": {
-        "provider": "Goldsky",
-        "chain": "Coston2",
-        "address": null,
-        "image": null,
-        "technology": "Subgraph Indexing",
-        "plan": "FREE",
-        "trial": "FALSE",
-        "accessPrice": 0,
-        "queryPrice": 0,
-        "starred": "FALSE",
-        "availableApis": ["GraphQL"],
-        "limitations": ["20 RPC/10s <= 100,000 entities stored"],
-        "securityImprovements": ["DDoS Protection", "IP Protection"],
-        "monitoringAndAnalytics": ["Subgraph logs", "Usage analytics"],
-        "regions": ["Global"],
-        "additionalFeatures": ["Mirror", "Email support"],
-        "verifiedUptime": null,
-        "verifiedLatency": null,
-        "verifiedBlocksBehindAvg": null,
-        "actionButtons": [
-          {
-            "label": "Buy",
-            "url": "https://app.goldsky.com/",
-            "type": "external"
-          },
-          {
-            "label": "Docs",
-            "url": "https://docs.goldsky.com/chains/flare#indexing-flare-with-goldsky",
-            "type": "external"
-          }
-        ]
-      },
-      "goldsky-coston2-pro": {
-        "provider": "Goldsky",
-        "chain": "Coston2",
-        "address": null,
-        "image": null,
-        "technology": "Subgraph Indexing",
-        "plan": "SCALE",
-        "trial": "TRUE",
-        "accessPrice": null,
-        "queryPrice": null,
-        "starred": "FALSE",
-        "availableApis": ["GraphQL"],
-        "limitations": [
-          "50 RPC/10s $4 additionaly per 100,000 entities stored"
-        ],
-        "securityImprovements": ["DDoS Protection", "IP Protection"],
-        "monitoringAndAnalytics": ["Subgraph logs", "Usage analytics"],
-        "regions": ["Global"],
-        "additionalFeatures": ["Mirror", "Email support", "Custom indexing"],
-        "verifiedUptime": null,
-        "verifiedLatency": null,
-        "verifiedBlocksBehindAvg": null,
-        "actionButtons": [
-          {
-            "label": "Buy",
-            "url": "https://app.goldsky.com/",
-            "type": "external"
-          },
-          {
-            "label": "Docs",
-            "url": "https://docs.goldsky.com/chains/flare#indexing-flare-with-goldsky",
-            "type": "external"
-          }
-        ]
-      },
-      "goldsky-coston2-enterprise": {
-        "provider": "Goldsky",
-        "chain": "Coston2",
-        "address": null,
-        "image": null,
-        "technology": "Subgraph Indexing",
-        "plan": "Enterprise",
-        "trial": "FALSE",
-        "accessPrice": null,
-        "queryPrice": null,
-        "starred": "FALSE",
-        "availableApis": ["GraphQL"],
-        "limitations": ["1000+ RPC/10s 1$ per 100,000 entities stored"],
-        "securityImprovements": [
-          "DDoS Protection",
-          "IP Protection",
-          "Dedicated infrastructure"
-        ],
-        "monitoringAndAnalytics": [
-          "Subgraph logs",
-          "Usage analytics",
-          "Custom dashboards"
-        ],
-        "regions": ["Global"],
-        "additionalFeatures": [
-          "Mirror",
-          "Slack and Email support",
-          "Managed onboarding",
-          "White-label endpoints",
-          "Customized caching"
-        ],
-        "verifiedUptime": null,
-        "verifiedLatency": null,
-        "verifiedBlocksBehindAvg": null,
-        "actionButtons": [
-          {
-            "label": "Buy",
-            "url": "https://app.goldsky.com/",
-            "type": "external"
-          },
-          {
-            "label": "Docs",
-            "url": "https://docs.goldsky.com/chains/flare#indexing-flare-with-goldsky",
-            "type": "external"
-          }
-        ]
-      },
-      "sqd-mainnet-free": {
-        "provider": "SQD",
-        "chain": "mainnet",
-        "address": null,
-        "image": null,
-        "technology": "Decentralized Data Lakes",
-        "plan": "Free",
-        "trial": "FALSE",
-        "accessPrice": 0,
-        "queryPrice": 0,
-        "starred": "TRUE",
-        "availableApis": ["GraphQL", "SQL"],
-        "limitations": ["Rate limits apply"],
-        "securityImprovements": ["Decentralized storage", "IP Protection"],
-        "monitoringAndAnalytics": ["Data lake logs", "Usage analytics"],
-        "regions": ["Global"],
-        "additionalFeatures": [
-          "ETL query stack",
-          "Decentralized indexing",
-          "Discord support"
-        ],
-        "verifiedUptime": null,
-        "verifiedLatency": null,
-        "verifiedBlocksBehindAvg": null,
-        "actionButtons": [
-          {
-            "label": "Buy",
-            "url": "https://www.sqd.ai/",
-            "type": "external"
-          },
-          {
-            "label": "Docs",
-            "url": "https://docs.sqd.ai/subsquid-network/reference/networks/#evm--ethereum-compatible",
-            "type": "external"
-          }
-        ]
-      },
-      "subquery-mainnet-free": {
-        "provider": "SubQuery",
-        "chain": "mainnet",
-        "address": null,
-        "image": null,
-        "technology": "Decentralized Data Indexing",
-        "plan": "Free",
-        "trial": "FALSE",
-        "accessPrice": 0,
-        "queryPrice": 0,
-        "starred": "TRUE",
-        "availableApis": ["GraphQL", "SQL"],
-        "limitations": ["Rate limits apply"],
-        "securityImprovements": ["Decentralized storage", "IP Protection"],
-        "monitoringAndAnalytics": ["Data lake logs", "Usage analytics"],
-        "regions": ["Global"],
-        "additionalFeatures": [
-          "ETL query stack",
-          "Decentralized indexing",
-          "Discord support"
-        ],
-        "verifiedUptime": null,
-        "verifiedLatency": null,
-        "verifiedBlocksBehindAvg": null,
-        "actionButtons": [
-          {
-            "label": "Buy",
-            "url": "https://app.subquery.network/",
-            "type": "external"
-          },
-          {
-            "label": "Docs",
-            "url": "https://subquery.network/doc/indexer/quickstart/quickstart_chains/flare.html",
-            "type": "external"
-          }
-        ]
-      },
-      "subquery-songbird-free": {
-        "provider": "SubQuery",
-        "chain": "Songbird",
-        "address": null,
-        "image": null,
-        "technology": "Decentralized Data Indexing",
-        "plan": "Free",
-        "trial": "FALSE",
-        "accessPrice": 0,
-        "queryPrice": 0,
-        "starred": "FALSE",
-        "availableApis": ["GraphQL", "SQL"],
-        "limitations": ["Rate limits apply"],
-        "securityImprovements": ["Decentralized storage", "IP Protection"],
-        "monitoringAndAnalytics": ["Data lake logs", "Usage analytics"],
-        "regions": ["Global"],
-        "additionalFeatures": [
-          "ETL query stack",
-          "Decentralized indexing",
-          "Discord support"
-        ],
-        "verifiedUptime": null,
-        "verifiedLatency": null,
-        "verifiedBlocksBehindAvg": null,
-        "actionButtons": [
-          {
-            "label": "Buy",
-            "url": "https://app.subquery.network/",
-            "type": "external"
-          },
-          {
-            "label": "Docs",
-            "url": "https://subquery.network/doc/indexer/quickstart/quickstart_chains/flare.html",
-            "type": "external"
-          }
-        ]
-      },
-      "": {
-        "provider": "",
-        "chain": "",
-        "address": "",
-        "image": "",
-        "technology": "",
-        "plan": "",
-        "trial": "",
-        "accessPrice": "",
-        "queryPrice": "",
-        "starred": "",
-        "availableApis": "",
-        "limitations": "",
-        "securityImprovements": "",
-        "monitoringAndAnalytics": "",
-        "regions": "",
-        "additionalFeatures": "",
-        "verifiedUptime": "",
-        "verifiedLatency": "",
-        "verifiedBlocksBehindAvg": "",
-        "actionButtons": ""
-      }
+      "slug": "goldsky-mainnet-free",
+      "provider": "Goldsky",
+      "chain": "mainnet",
+      "address": null,
+      "image": null,
+      "technology": "Subgraph Indexing",
+      "plan": "FREE",
+      "trial": "FALSE",
+      "accessPrice": 0,
+      "queryPrice": 0,
+      "starred": "TRUE",
+      "availableApis": ["GraphQL"],
+      "limitations": ["20 RPC/10s <= 100,000 entities stored"],
+      "securityImprovements": ["DDoS Protection", "IP Protection"],
+      "monitoringAndAnalytics": ["Subgraph logs", "Usage analytics"],
+      "regions": ["Global"],
+      "additionalFeatures": ["Mirror", "Email support"],
+      "verifiedUptime": null,
+      "verifiedLatency": null,
+      "verifiedBlocksBehindAvg": null,
+      "actionButtons": [
+        {
+          "label": "Buy",
+          "url": "https://app.goldsky.com/",
+          "type": "external"
+        },
+        {
+          "label": "Docs",
+          "url": "https://docs.goldsky.com/chains/flare#indexing-flare-with-goldsky",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "goldsky-mainnet-pro",
+      "provider": "Goldsky",
+      "chain": "mainnet",
+      "address": null,
+      "image": null,
+      "technology": "Subgraph Indexing",
+      "plan": "SCALE",
+      "trial": "TRUE",
+      "accessPrice": null,
+      "queryPrice": null,
+      "starred": "FALSE",
+      "availableApis": ["GraphQL"],
+      "limitations": ["50 RPC/10s $4 additionaly per 100,000 entities stored"],
+      "securityImprovements": ["DDoS Protection", "IP Protection"],
+      "monitoringAndAnalytics": ["Subgraph logs", "Usage analytics"],
+      "regions": ["Global"],
+      "additionalFeatures": ["Mirror", "Email support", "Custom indexing"],
+      "verifiedUptime": null,
+      "verifiedLatency": null,
+      "verifiedBlocksBehindAvg": null,
+      "actionButtons": [
+        {
+          "label": "Buy",
+          "url": "https://app.goldsky.com/",
+          "type": "external"
+        },
+        {
+          "label": "Docs",
+          "url": "https://docs.goldsky.com/chains/flare#indexing-flare-with-goldsky",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "goldsky-mainnet-enterprise",
+      "provider": "Goldsky",
+      "chain": "mainnet",
+      "address": null,
+      "image": null,
+      "technology": "Subgraph Indexing",
+      "plan": "Enterprise",
+      "trial": "FALSE",
+      "accessPrice": null,
+      "queryPrice": null,
+      "starred": "FALSE",
+      "availableApis": ["GraphQL"],
+      "limitations": ["1000+ RPC/10s 1$ per 100,000 entities stored"],
+      "securityImprovements": [
+        "DDoS Protection",
+        "IP Protection",
+        "Dedicated infrastructure"
+      ],
+      "monitoringAndAnalytics": [
+        "Subgraph logs",
+        "Usage analytics",
+        "Custom dashboards"
+      ],
+      "regions": ["Global"],
+      "additionalFeatures": [
+        "Mirror",
+        "Slack and Email support",
+        "Managed onboarding",
+        "White-label endpoints",
+        "Customized caching"
+      ],
+      "verifiedUptime": null,
+      "verifiedLatency": null,
+      "verifiedBlocksBehindAvg": null,
+      "actionButtons": [
+        {
+          "label": "Buy",
+          "url": "https://app.goldsky.com/",
+          "type": "external"
+        },
+        {
+          "label": "Docs",
+          "url": "https://docs.goldsky.com/chains/flare#indexing-flare-with-goldsky",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "goldsky-coston2-free",
+      "provider": "Goldsky",
+      "chain": "Coston2",
+      "address": null,
+      "image": null,
+      "technology": "Subgraph Indexing",
+      "plan": "FREE",
+      "trial": "FALSE",
+      "accessPrice": 0,
+      "queryPrice": 0,
+      "starred": "FALSE",
+      "availableApis": ["GraphQL"],
+      "limitations": ["20 RPC/10s <= 100,000 entities stored"],
+      "securityImprovements": ["DDoS Protection", "IP Protection"],
+      "monitoringAndAnalytics": ["Subgraph logs", "Usage analytics"],
+      "regions": ["Global"],
+      "additionalFeatures": ["Mirror", "Email support"],
+      "verifiedUptime": null,
+      "verifiedLatency": null,
+      "verifiedBlocksBehindAvg": null,
+      "actionButtons": [
+        {
+          "label": "Buy",
+          "url": "https://app.goldsky.com/",
+          "type": "external"
+        },
+        {
+          "label": "Docs",
+          "url": "https://docs.goldsky.com/chains/flare#indexing-flare-with-goldsky",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "goldsky-coston2-pro",
+      "provider": "Goldsky",
+      "chain": "Coston2",
+      "address": null,
+      "image": null,
+      "technology": "Subgraph Indexing",
+      "plan": "SCALE",
+      "trial": "TRUE",
+      "accessPrice": null,
+      "queryPrice": null,
+      "starred": "FALSE",
+      "availableApis": ["GraphQL"],
+      "limitations": ["50 RPC/10s $4 additionaly per 100,000 entities stored"],
+      "securityImprovements": ["DDoS Protection", "IP Protection"],
+      "monitoringAndAnalytics": ["Subgraph logs", "Usage analytics"],
+      "regions": ["Global"],
+      "additionalFeatures": ["Mirror", "Email support", "Custom indexing"],
+      "verifiedUptime": null,
+      "verifiedLatency": null,
+      "verifiedBlocksBehindAvg": null,
+      "actionButtons": [
+        {
+          "label": "Buy",
+          "url": "https://app.goldsky.com/",
+          "type": "external"
+        },
+        {
+          "label": "Docs",
+          "url": "https://docs.goldsky.com/chains/flare#indexing-flare-with-goldsky",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "goldsky-coston2-enterprise",
+      "provider": "Goldsky",
+      "chain": "Coston2",
+      "address": null,
+      "image": null,
+      "technology": "Subgraph Indexing",
+      "plan": "Enterprise",
+      "trial": "FALSE",
+      "accessPrice": null,
+      "queryPrice": null,
+      "starred": "FALSE",
+      "availableApis": ["GraphQL"],
+      "limitations": ["1000+ RPC/10s 1$ per 100,000 entities stored"],
+      "securityImprovements": [
+        "DDoS Protection",
+        "IP Protection",
+        "Dedicated infrastructure"
+      ],
+      "monitoringAndAnalytics": [
+        "Subgraph logs",
+        "Usage analytics",
+        "Custom dashboards"
+      ],
+      "regions": ["Global"],
+      "additionalFeatures": [
+        "Mirror",
+        "Slack and Email support",
+        "Managed onboarding",
+        "White-label endpoints",
+        "Customized caching"
+      ],
+      "verifiedUptime": null,
+      "verifiedLatency": null,
+      "verifiedBlocksBehindAvg": null,
+      "actionButtons": [
+        {
+          "label": "Buy",
+          "url": "https://app.goldsky.com/",
+          "type": "external"
+        },
+        {
+          "label": "Docs",
+          "url": "https://docs.goldsky.com/chains/flare#indexing-flare-with-goldsky",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "sqd-mainnet-free",
+      "provider": "SQD",
+      "chain": "mainnet",
+      "address": null,
+      "image": null,
+      "technology": "Decentralized Data Lakes",
+      "plan": "Free",
+      "trial": "FALSE",
+      "accessPrice": 0,
+      "queryPrice": 0,
+      "starred": "TRUE",
+      "availableApis": ["GraphQL", "SQL"],
+      "limitations": ["Rate limits apply"],
+      "securityImprovements": ["Decentralized storage", "IP Protection"],
+      "monitoringAndAnalytics": ["Data lake logs", "Usage analytics"],
+      "regions": ["Global"],
+      "additionalFeatures": [
+        "ETL query stack",
+        "Decentralized indexing",
+        "Discord support"
+      ],
+      "verifiedUptime": null,
+      "verifiedLatency": null,
+      "verifiedBlocksBehindAvg": null,
+      "actionButtons": [
+        {
+          "label": "Buy",
+          "url": "https://www.sqd.ai/",
+          "type": "external"
+        },
+        {
+          "label": "Docs",
+          "url": "https://docs.sqd.ai/subsquid-network/reference/networks/#evm--ethereum-compatible",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "subquery-mainnet-free",
+      "provider": "SubQuery",
+      "chain": "mainnet",
+      "address": null,
+      "image": null,
+      "technology": "Decentralized Data Indexing",
+      "plan": "Free",
+      "trial": "FALSE",
+      "accessPrice": 0,
+      "queryPrice": 0,
+      "starred": "TRUE",
+      "availableApis": ["GraphQL", "SQL"],
+      "limitations": ["Rate limits apply"],
+      "securityImprovements": ["Decentralized storage", "IP Protection"],
+      "monitoringAndAnalytics": ["Data lake logs", "Usage analytics"],
+      "regions": ["Global"],
+      "additionalFeatures": [
+        "ETL query stack",
+        "Decentralized indexing",
+        "Discord support"
+      ],
+      "verifiedUptime": null,
+      "verifiedLatency": null,
+      "verifiedBlocksBehindAvg": null,
+      "actionButtons": [
+        {
+          "label": "Buy",
+          "url": "https://app.subquery.network/",
+          "type": "external"
+        },
+        {
+          "label": "Docs",
+          "url": "https://subquery.network/doc/indexer/quickstart/quickstart_chains/flare.html",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "subquery-songbird-free",
+      "provider": "SubQuery",
+      "chain": "Songbird",
+      "address": null,
+      "image": null,
+      "technology": "Decentralized Data Indexing",
+      "plan": "Free",
+      "trial": "FALSE",
+      "accessPrice": 0,
+      "queryPrice": 0,
+      "starred": "FALSE",
+      "availableApis": ["GraphQL", "SQL"],
+      "limitations": ["Rate limits apply"],
+      "securityImprovements": ["Decentralized storage", "IP Protection"],
+      "monitoringAndAnalytics": ["Data lake logs", "Usage analytics"],
+      "regions": ["Global"],
+      "additionalFeatures": [
+        "ETL query stack",
+        "Decentralized indexing",
+        "Discord support"
+      ],
+      "verifiedUptime": null,
+      "verifiedLatency": null,
+      "verifiedBlocksBehindAvg": null,
+      "actionButtons": [
+        {
+          "label": "Buy",
+          "url": "https://app.subquery.network/",
+          "type": "external"
+        },
+        {
+          "label": "Docs",
+          "url": "https://subquery.network/doc/indexer/quickstart/quickstart_chains/flare.html",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "",
+      "provider": "",
+      "chain": "",
+      "address": "",
+      "image": "",
+      "technology": "",
+      "plan": "",
+      "trial": "",
+      "accessPrice": "",
+      "queryPrice": "",
+      "starred": "",
+      "availableApis": "",
+      "limitations": "",
+      "securityImprovements": "",
+      "monitoringAndAnalytics": "",
+      "regions": "",
+      "additionalFeatures": "",
+      "verifiedUptime": "",
+      "verifiedLatency": "",
+      "verifiedBlocksBehindAvg": "",
+      "actionButtons": ""
+    },
+    {
+      "slug": "",
+      "provider": "",
+      "chain": "",
+      "address": "",
+      "image": "",
+      "technology": "",
+      "plan": "",
+      "trial": "",
+      "accessPrice": "",
+      "queryPrice": "",
+      "starred": "",
+      "availableApis": "",
+      "limitations": "",
+      "securityImprovements": "",
+      "monitoringAndAnalytics": "",
+      "regions": "",
+      "additionalFeatures": "",
+      "verifiedUptime": "",
+      "verifiedLatency": "",
+      "verifiedBlocksBehindAvg": "",
+      "actionButtons": ""
     }
   ],
   "oracle": [
     {
-      "ftso-mainnet": {
-        "provider": "FTSO",
-        "chain": "mainnet",
-        "technology": "Native",
-        "accessPrice": 0,
-        "queryPrice": 0,
-        "uptimeSla": "NULL",
-        "blocksBehindSla": "NULL",
-        "starred": "TRUE",
-        "availableApis": ["Price Feed"],
-        "monitoringAndAnalytics": [
-          "Real-time Price Feeds",
-          "Stake-weighted Randomness"
-        ],
-        "additionalFeatures": [
-          "Decentralized Price Aggregation",
-          "Reward Sharing"
-        ],
-        "dataTypes": ["Cryptocurrency Prices", "Indices"],
-        "decentralizationModel": "Decentralized",
-        "economicalSecurity": "TRUE",
-        "economicalSecurityNote": "Inherits Flare network security",
-        "sdk": ["Solidity"],
-        "auditsPerformed": [],
-        "actionButtons": [
-          {
-            "label": "FLR/USD",
-            "url": "https://flare-systems-explorer.flare.network/price-feeds/ftso?feed=01464c522f55534400000000000000000000000000",
-            "type": "external"
-          },
-          {
-            "label": "SGB/USD",
-            "url": "https://flare-systems-explorer.flare.network/price-feeds/ftso?feed=015347422f55534400000000000000000000000000",
-            "type": "external"
-          },
-          {
-            "label": "Docs",
-            "url": "https://dev.flare.network/ftso/getting-started",
-            "type": "external"
-          }
-        ]
-      },
-      "ftso-songbird": {
-        "provider": "FTSO",
-        "chain": "Songbird",
-        "technology": "Native",
-        "accessPrice": 0,
-        "queryPrice": 0,
-        "uptimeSla": "NULL",
-        "blocksBehindSla": "NULL",
-        "starred": "TRUE",
-        "availableApis": ["Price Feed"],
-        "monitoringAndAnalytics": [
-          "Real-time Price Feeds",
-          "Stake-weighted Randomness"
-        ],
-        "additionalFeatures": [
-          "Decentralized Price Aggregation",
-          "Reward Sharing"
-        ],
-        "dataTypes": ["Cryptocurrency Prices", "Indices"],
-        "decentralizationModel": "Decentralized",
-        "economicalSecurity": "TRUE",
-        "economicalSecurityNote": "Inherits Songbird network security",
-        "sdk": ["Solidity"],
-        "auditsPerformed": [],
-        "actionButtons": [
-          {
-            "label": "FLR/USD",
-            "url": "https://flare-systems-explorer.flare.network/price-feeds/ftso?feed=01464c522f55534400000000000000000000000000",
-            "type": "external"
-          },
-          {
-            "label": "SGB/USD",
-            "url": "https://flare-systems-explorer.flare.network/price-feeds/ftso?feed=015347422f55534400000000000000000000000000",
-            "type": "external"
-          },
-          {
-            "label": "Docs",
-            "url": "https://dev.flare.network/ftso/getting-started",
-            "type": "external"
-          }
-        ]
-      },
-      "ftso-coston2": {
-        "provider": "FTSO",
-        "chain": "coston2",
-        "technology": "Native",
-        "accessPrice": 0,
-        "queryPrice": 0,
-        "uptimeSla": "NULL",
-        "blocksBehindSla": "NULL",
-        "starred": "TRUE",
-        "availableApis": ["Price Feed"],
-        "monitoringAndAnalytics": [
-          "Real-time Price Feeds",
-          "Stake-weighted Randomness"
-        ],
-        "additionalFeatures": [
-          "Decentralized Price Aggregation",
-          "Reward Sharing"
-        ],
-        "dataTypes": ["Cryptocurrency Prices", "Indices"],
-        "decentralizationModel": "Decentralized",
-        "economicalSecurity": "TRUE",
-        "economicalSecurityNote": "Inherits Flare testnet security",
-        "sdk": ["Solidity"],
-        "auditsPerformed": [],
-        "actionButtons": [
-          {
-            "label": "Docs",
-            "url": "https://dev.flare.network/ftso/getting-started",
-            "type": "external"
-          }
-        ]
-      },
-      "ftso-coston": {
-        "provider": "FTSO",
-        "chain": "coston",
-        "technology": "Native",
-        "accessPrice": 0,
-        "queryPrice": 0,
-        "uptimeSla": "NULL",
-        "blocksBehindSla": "NULL",
-        "starred": "TRUE",
-        "availableApis": ["Price Feed"],
-        "monitoringAndAnalytics": [
-          "Real-time Price Feeds",
-          "Stake-weighted Randomness"
-        ],
-        "additionalFeatures": [
-          "Decentralized Price Aggregation",
-          "Reward Sharing"
-        ],
-        "dataTypes": ["Cryptocurrency Prices", "Indices"],
-        "decentralizationModel": "Decentralized",
-        "economicalSecurity": "TRUE",
-        "economicalSecurityNote": "Inherits Songbird testnet security",
-        "sdk": ["Solidity"],
-        "auditsPerformed": [],
-        "actionButtons": [
-          {
-            "label": "Docs",
-            "url": "https://dev.flare.network/ftso/getting-started",
-            "type": "external"
-          }
-        ]
-      },
-      "fdc-mainnet": {
-        "provider": "FDC",
-        "chain": "mainnet",
-        "technology": "Native",
-        "accessPrice": 0,
-        "queryPrice": 0,
-        "uptimeSla": "NULL",
-        "blocksBehindSla": "NULL",
-        "starred": "TRUE",
-        "availableApis": ["Cross-Chain Data"],
-        "monitoringAndAnalytics": ["External Data Verification"],
-        "additionalFeatures": [
-          "Request-Commit-Reveal Protocol",
-          "Branching Protocol"
-        ],
-        "dataTypes": [
-          "Cross-Chain Transactions",
-          "Web2 API Data",
-          "IoT Data",
-          "Identity Proofs"
-        ],
-        "decentralizationModel": "Decentralized",
-        "economicalSecurity": "TRUE",
-        "economicalSecurityNote": "Inherits Flare network security",
-        "sdk": ["Solidity"],
-        "auditsPerformed": [],
-        "actionButtons": [
-          {
-            "label": "Docs",
-            "url": "https://dev.flare.network/fdc/getting-started",
-            "type": "external"
-          }
-        ]
-      },
-      "fdc-songbird": {
-        "provider": "FDC",
-        "chain": "Songbird",
-        "technology": "Native",
-        "accessPrice": 0,
-        "queryPrice": 0,
-        "uptimeSla": "NULL",
-        "blocksBehindSla": "NULL",
-        "starred": "TRUE",
-        "availableApis": ["Cross-Chain Data"],
-        "monitoringAndAnalytics": ["External Data Verification"],
-        "additionalFeatures": [
-          "Request-Commit-Reveal Protocol",
-          "Branching Protocol"
-        ],
-        "dataTypes": [
-          "Cross-Chain Transactions",
-          "Web2 API Data",
-          "IoT Data",
-          "Identity Proofs"
-        ],
-        "decentralizationModel": "Decentralized",
-        "economicalSecurity": "TRUE",
-        "economicalSecurityNote": "Inherits Songbird network security",
-        "sdk": ["Solidity"],
-        "auditsPerformed": [],
-        "actionButtons": [
-          {
-            "label": "Docs",
-            "url": "https://dev.flare.network/fdc/getting-started",
-            "type": "external"
-          }
-        ]
-      },
-      "fdc-coston2": {
-        "provider": "FDC",
-        "chain": "coston2",
-        "technology": "Native",
-        "accessPrice": 0,
-        "queryPrice": 0,
-        "uptimeSla": "NULL",
-        "blocksBehindSla": "NULL",
-        "starred": "TRUE",
-        "availableApis": ["Cross-Chain Data"],
-        "monitoringAndAnalytics": ["External Data Verification"],
-        "additionalFeatures": [
-          "Request-Commit-Reveal Protocol",
-          "Branching Protocol"
-        ],
-        "dataTypes": [
-          "Cross-Chain Transactions",
-          "Web2 API Data",
-          "IoT Data",
-          "Identity Proofs"
-        ],
-        "decentralizationModel": "Decentralized",
-        "economicalSecurity": "TRUE",
-        "economicalSecurityNote": "Inherits Flare testnet security",
-        "sdk": ["Solidity"],
-        "auditsPerformed": [],
-        "actionButtons": [
-          {
-            "label": "Docs",
-            "url": "https://dev.flare.network/fdc/getting-started",
-            "type": "external"
-          }
-        ]
-      },
-      "fdc-coston": {
-        "provider": "FDC",
-        "chain": "coston",
-        "technology": "Native",
-        "accessPrice": 0,
-        "queryPrice": 0,
-        "uptimeSla": "NULL",
-        "blocksBehindSla": "NULL",
-        "starred": "TRUE",
-        "availableApis": ["Cross-Chain Data"],
-        "monitoringAndAnalytics": ["External Data Verification"],
-        "additionalFeatures": [
-          "Request-Commit-Reveal Protocol",
-          "Branching Protocol"
-        ],
-        "dataTypes": [
-          "Cross-Chain Transactions",
-          "Web2 API Data",
-          "IoT Data",
-          "Identity Proofs"
-        ],
-        "decentralizationModel": "Decentralized",
-        "economicalSecurity": "TRUE",
-        "economicalSecurityNote": "Inherits Songbird testnet security",
-        "sdk": ["Solidity"],
-        "auditsPerformed": [],
-        "actionButtons": [
-          {
-            "label": "Docs",
-            "url": "https://dev.flare.network/fdc/getting-started",
-            "type": "external"
-          }
-        ]
-      }
+      "slug": "ftso-mainnet",
+      "provider": "FTSO",
+      "chain": "mainnet",
+      "technology": "Native",
+      "accessPrice": 0,
+      "queryPrice": 0,
+      "uptimeSla": "NULL",
+      "blocksBehindSla": "NULL",
+      "starred": "TRUE",
+      "availableApis": ["Price Feed"],
+      "monitoringAndAnalytics": [
+        "Real-time Price Feeds",
+        "Stake-weighted Randomness"
+      ],
+      "additionalFeatures": [
+        "Decentralized Price Aggregation",
+        "Reward Sharing"
+      ],
+      "dataTypes": ["Cryptocurrency Prices", "Indices"],
+      "decentralizationModel": "Decentralized",
+      "economicalSecurity": "TRUE",
+      "economicalSecurityNote": "Inherits Flare network security",
+      "sdk": ["Solidity"],
+      "auditsPerformed": [],
+      "actionButtons": [
+        {
+          "label": "FLR/USD",
+          "url": "https://flare-systems-explorer.flare.network/price-feeds/ftso?feed=01464c522f55534400000000000000000000000000",
+          "type": "external"
+        },
+        {
+          "label": "SGB/USD",
+          "url": "https://flare-systems-explorer.flare.network/price-feeds/ftso?feed=015347422f55534400000000000000000000000000",
+          "type": "external"
+        },
+        {
+          "label": "Docs",
+          "url": "https://dev.flare.network/ftso/getting-started",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "ftso-songbird",
+      "provider": "FTSO",
+      "chain": "Songbird",
+      "technology": "Native",
+      "accessPrice": 0,
+      "queryPrice": 0,
+      "uptimeSla": "NULL",
+      "blocksBehindSla": "NULL",
+      "starred": "TRUE",
+      "availableApis": ["Price Feed"],
+      "monitoringAndAnalytics": [
+        "Real-time Price Feeds",
+        "Stake-weighted Randomness"
+      ],
+      "additionalFeatures": [
+        "Decentralized Price Aggregation",
+        "Reward Sharing"
+      ],
+      "dataTypes": ["Cryptocurrency Prices", "Indices"],
+      "decentralizationModel": "Decentralized",
+      "economicalSecurity": "TRUE",
+      "economicalSecurityNote": "Inherits Songbird network security",
+      "sdk": ["Solidity"],
+      "auditsPerformed": [],
+      "actionButtons": [
+        {
+          "label": "FLR/USD",
+          "url": "https://flare-systems-explorer.flare.network/price-feeds/ftso?feed=01464c522f55534400000000000000000000000000",
+          "type": "external"
+        },
+        {
+          "label": "SGB/USD",
+          "url": "https://flare-systems-explorer.flare.network/price-feeds/ftso?feed=015347422f55534400000000000000000000000000",
+          "type": "external"
+        },
+        {
+          "label": "Docs",
+          "url": "https://dev.flare.network/ftso/getting-started",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "ftso-coston2",
+      "provider": "FTSO",
+      "chain": "coston2",
+      "technology": "Native",
+      "accessPrice": 0,
+      "queryPrice": 0,
+      "uptimeSla": "NULL",
+      "blocksBehindSla": "NULL",
+      "starred": "TRUE",
+      "availableApis": ["Price Feed"],
+      "monitoringAndAnalytics": [
+        "Real-time Price Feeds",
+        "Stake-weighted Randomness"
+      ],
+      "additionalFeatures": [
+        "Decentralized Price Aggregation",
+        "Reward Sharing"
+      ],
+      "dataTypes": ["Cryptocurrency Prices", "Indices"],
+      "decentralizationModel": "Decentralized",
+      "economicalSecurity": "TRUE",
+      "economicalSecurityNote": "Inherits Flare testnet security",
+      "sdk": ["Solidity"],
+      "auditsPerformed": [],
+      "actionButtons": [
+        {
+          "label": "Docs",
+          "url": "https://dev.flare.network/ftso/getting-started",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "ftso-coston",
+      "provider": "FTSO",
+      "chain": "coston",
+      "technology": "Native",
+      "accessPrice": 0,
+      "queryPrice": 0,
+      "uptimeSla": "NULL",
+      "blocksBehindSla": "NULL",
+      "starred": "TRUE",
+      "availableApis": ["Price Feed"],
+      "monitoringAndAnalytics": [
+        "Real-time Price Feeds",
+        "Stake-weighted Randomness"
+      ],
+      "additionalFeatures": [
+        "Decentralized Price Aggregation",
+        "Reward Sharing"
+      ],
+      "dataTypes": ["Cryptocurrency Prices", "Indices"],
+      "decentralizationModel": "Decentralized",
+      "economicalSecurity": "TRUE",
+      "economicalSecurityNote": "Inherits Songbird testnet security",
+      "sdk": ["Solidity"],
+      "auditsPerformed": [],
+      "actionButtons": [
+        {
+          "label": "Docs",
+          "url": "https://dev.flare.network/ftso/getting-started",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "fdc-mainnet",
+      "provider": "FDC",
+      "chain": "mainnet",
+      "technology": "Native",
+      "accessPrice": 0,
+      "queryPrice": 0,
+      "uptimeSla": "NULL",
+      "blocksBehindSla": "NULL",
+      "starred": "TRUE",
+      "availableApis": ["Cross-Chain Data"],
+      "monitoringAndAnalytics": ["External Data Verification"],
+      "additionalFeatures": [
+        "Request-Commit-Reveal Protocol",
+        "Branching Protocol"
+      ],
+      "dataTypes": [
+        "Cross-Chain Transactions",
+        "Web2 API Data",
+        "IoT Data",
+        "Identity Proofs"
+      ],
+      "decentralizationModel": "Decentralized",
+      "economicalSecurity": "TRUE",
+      "economicalSecurityNote": "Inherits Flare network security",
+      "sdk": ["Solidity"],
+      "auditsPerformed": [],
+      "actionButtons": [
+        {
+          "label": "Docs",
+          "url": "https://dev.flare.network/fdc/getting-started",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "fdc-songbird",
+      "provider": "FDC",
+      "chain": "Songbird",
+      "technology": "Native",
+      "accessPrice": 0,
+      "queryPrice": 0,
+      "uptimeSla": "NULL",
+      "blocksBehindSla": "NULL",
+      "starred": "TRUE",
+      "availableApis": ["Cross-Chain Data"],
+      "monitoringAndAnalytics": ["External Data Verification"],
+      "additionalFeatures": [
+        "Request-Commit-Reveal Protocol",
+        "Branching Protocol"
+      ],
+      "dataTypes": [
+        "Cross-Chain Transactions",
+        "Web2 API Data",
+        "IoT Data",
+        "Identity Proofs"
+      ],
+      "decentralizationModel": "Decentralized",
+      "economicalSecurity": "TRUE",
+      "economicalSecurityNote": "Inherits Songbird network security",
+      "sdk": ["Solidity"],
+      "auditsPerformed": [],
+      "actionButtons": [
+        {
+          "label": "Docs",
+          "url": "https://dev.flare.network/fdc/getting-started",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "fdc-coston2",
+      "provider": "FDC",
+      "chain": "coston2",
+      "technology": "Native",
+      "accessPrice": 0,
+      "queryPrice": 0,
+      "uptimeSla": "NULL",
+      "blocksBehindSla": "NULL",
+      "starred": "TRUE",
+      "availableApis": ["Cross-Chain Data"],
+      "monitoringAndAnalytics": ["External Data Verification"],
+      "additionalFeatures": [
+        "Request-Commit-Reveal Protocol",
+        "Branching Protocol"
+      ],
+      "dataTypes": [
+        "Cross-Chain Transactions",
+        "Web2 API Data",
+        "IoT Data",
+        "Identity Proofs"
+      ],
+      "decentralizationModel": "Decentralized",
+      "economicalSecurity": "TRUE",
+      "economicalSecurityNote": "Inherits Flare testnet security",
+      "sdk": ["Solidity"],
+      "auditsPerformed": [],
+      "actionButtons": [
+        {
+          "label": "Docs",
+          "url": "https://dev.flare.network/fdc/getting-started",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "fdc-coston",
+      "provider": "FDC",
+      "chain": "coston",
+      "technology": "Native",
+      "accessPrice": 0,
+      "queryPrice": 0,
+      "uptimeSla": "NULL",
+      "blocksBehindSla": "NULL",
+      "starred": "TRUE",
+      "availableApis": ["Cross-Chain Data"],
+      "monitoringAndAnalytics": ["External Data Verification"],
+      "additionalFeatures": [
+        "Request-Commit-Reveal Protocol",
+        "Branching Protocol"
+      ],
+      "dataTypes": [
+        "Cross-Chain Transactions",
+        "Web2 API Data",
+        "IoT Data",
+        "Identity Proofs"
+      ],
+      "decentralizationModel": "Decentralized",
+      "economicalSecurity": "TRUE",
+      "economicalSecurityNote": "Inherits Songbird testnet security",
+      "sdk": ["Solidity"],
+      "auditsPerformed": [],
+      "actionButtons": [
+        {
+          "label": "Docs",
+          "url": "https://dev.flare.network/fdc/getting-started",
+          "type": "external"
+        }
+      ]
     }
   ],
   "bridge": [
     {
-      "layerzero-mainnet": {
-        "provider": "LayerZero Labs",
-        "chain": "mainnet",
-        "technology": "Cross-chain Messaging",
-        "openSource": "FALSE",
-        "support": ["Discord", "Email"],
-        "supportedChains": [],
-        "starred": "TRUE",
-        "availableApis": ["Cross-chain Messaging", "Asset Transfer"],
-        "monitoringAndAnalytics": ["Blockscout", "Custom Dashboards"],
-        "additionalFeatures": [
-          "Omnichain Fungible Tokens",
-          "Cross-chain Governance"
-        ],
-        "assetTypes": ["FLR", "SGB", "ERC-20", "OFT"],
-        "txSpeedSla": null,
-        "throughputSla": null,
-        "price": "Gas Fee",
-        "economicalSecurity": "TRUE",
-        "economicalSecurityNote": "Over-collateralized messaging",
-        "auditsPerformed": [],
-        "decentralizationModel": "Decentralized",
-        "sdk": ["TypeScript"],
-        "actionButtons": [
-          {
-            "label": "Bridge",
-            "url": "https://layerzero.network/",
-            "type": "external"
-          },
-          {
-            "label": "Docs",
-            "url": "https://docs.layerzero.network/v2/deployments/evm-chains/flare-mainnet-oft-quickstart",
-            "type": "external"
-          }
-        ]
-      },
-      "stargate-mainnet": {
-        "provider": "Stargate",
-        "chain": "mainnet",
-        "technology": "Liquidity Transfer Protocol",
-        "openSource": "FALSE",
-        "support": ["Discord", "Email"],
-        "supportedChains": [],
-        "starred": "TRUE",
-        "availableApis": ["Asset Transfer"],
-        "monitoringAndAnalytics": ["Blockscout", "Custom Dashboards"],
-        "additionalFeatures": ["Unified Liquidity Pools", "Instant Finality"],
-        "assetTypes": ["FLR", "SGB", "USDC", "USDT", "ETH", "ERC-20"],
-        "txSpeedSla": null,
-        "throughputSla": null,
-        "price": "Gas Fee, Protocol Fee",
-        "economicalSecurity": "TRUE",
-        "economicalSecurityNote": "Backed by LayerZero security",
-        "auditsPerformed": [],
-        "decentralizationModel": "Decentralized",
-        "sdk": ["TypeScript"],
-        "actionButtons": [
-          {
-            "label": "Bridge",
-            "url": "https://stargate.finance/",
-            "type": "external"
-          },
-          {
-            "label": "Docs",
-            "url": "https://stargateprotocol.gitbook.io/stargate/v2-developer-docs/technical-reference/mainnet-contracts#flare",
-            "type": "external"
-          }
-        ]
-      },
-      "zkbridge-mainnet": {
-        "provider": "zkBridge",
-        "chain": "mainnet",
-        "technology": "Zero-Knowledge Proofs",
-        "openSource": "FALSE",
-        "support": ["Discord", "Email"],
-        "supportedChains": [],
-        "starred": "TRUE",
-        "availableApis": ["Cross-chain Messaging"],
-        "monitoringAndAnalytics": ["Custom Dashboards"],
-        "additionalFeatures": ["Zero-Knowledge Verification"],
-        "assetTypes": ["FLR", "SGB", "ERC-20"],
-        "txSpeedSla": null,
-        "throughputSla": null,
-        "price": "Gas Fee",
-        "economicalSecurity": "TRUE",
-        "economicalSecurityNote": "ZK-proof based security",
-        "auditsPerformed": [],
-        "decentralizationModel": "Decentralized",
-        "sdk": ["TypeScript"],
-        "actionButtons": [
-          {
-            "label": "Bridge",
-            "url": "https://zkbridge.com/",
-            "type": "external"
-          },
-          {
-            "label": "Docs",
-            "url": "https://docs.zkbridge.com/layerzero-zklightclient-configurations/layerzero-v2-zklightclient-dvn-addresses",
-            "type": "external"
-          }
-        ]
-      }
+      "slug": "layerzero-mainnet",
+      "provider": "LayerZero Labs",
+      "chain": "mainnet",
+      "technology": "Cross-chain Messaging",
+      "openSource": "FALSE",
+      "support": ["Discord", "Email"],
+      "supportedChains": [],
+      "starred": "TRUE",
+      "availableApis": ["Cross-chain Messaging", "Asset Transfer"],
+      "monitoringAndAnalytics": ["Blockscout", "Custom Dashboards"],
+      "additionalFeatures": [
+        "Omnichain Fungible Tokens",
+        "Cross-chain Governance"
+      ],
+      "assetTypes": ["FLR", "SGB", "ERC-20", "OFT"],
+      "txSpeedSla": null,
+      "throughputSla": null,
+      "price": "Gas Fee",
+      "economicalSecurity": "TRUE",
+      "economicalSecurityNote": "Over-collateralized messaging",
+      "auditsPerformed": [],
+      "decentralizationModel": "Decentralized",
+      "sdk": ["TypeScript"],
+      "actionButtons": [
+        {
+          "label": "Bridge",
+          "url": "https://layerzero.network/",
+          "type": "external"
+        },
+        {
+          "label": "Docs",
+          "url": "https://docs.layerzero.network/v2/deployments/evm-chains/flare-mainnet-oft-quickstart",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "stargate-mainnet",
+      "provider": "Stargate",
+      "chain": "mainnet",
+      "technology": "Liquidity Transfer Protocol",
+      "openSource": "FALSE",
+      "support": ["Discord", "Email"],
+      "supportedChains": [],
+      "starred": "TRUE",
+      "availableApis": ["Asset Transfer"],
+      "monitoringAndAnalytics": ["Blockscout", "Custom Dashboards"],
+      "additionalFeatures": ["Unified Liquidity Pools", "Instant Finality"],
+      "assetTypes": ["FLR", "SGB", "USDC", "USDT", "ETH", "ERC-20"],
+      "txSpeedSla": null,
+      "throughputSla": null,
+      "price": "Gas Fee, Protocol Fee",
+      "economicalSecurity": "TRUE",
+      "economicalSecurityNote": "Backed by LayerZero security",
+      "auditsPerformed": [],
+      "decentralizationModel": "Decentralized",
+      "sdk": ["TypeScript"],
+      "actionButtons": [
+        {
+          "label": "Bridge",
+          "url": "https://stargate.finance/",
+          "type": "external"
+        },
+        {
+          "label": "Docs",
+          "url": "https://stargateprotocol.gitbook.io/stargate/v2-developer-docs/technical-reference/mainnet-contracts#flare",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "zkbridge-mainnet",
+      "provider": "zkBridge",
+      "chain": "mainnet",
+      "technology": "Zero-Knowledge Proofs",
+      "openSource": "FALSE",
+      "support": ["Discord", "Email"],
+      "supportedChains": [],
+      "starred": "TRUE",
+      "availableApis": ["Cross-chain Messaging"],
+      "monitoringAndAnalytics": ["Custom Dashboards"],
+      "additionalFeatures": ["Zero-Knowledge Verification"],
+      "assetTypes": ["FLR", "SGB", "ERC-20"],
+      "txSpeedSla": null,
+      "throughputSla": null,
+      "price": "Gas Fee",
+      "economicalSecurity": "TRUE",
+      "economicalSecurityNote": "ZK-proof based security",
+      "auditsPerformed": [],
+      "decentralizationModel": "Decentralized",
+      "sdk": ["TypeScript"],
+      "actionButtons": [
+        {
+          "label": "Bridge",
+          "url": "https://zkbridge.com/",
+          "type": "external"
+        },
+        {
+          "label": "Docs",
+          "url": "https://docs.zkbridge.com/layerzero-zklightclient-configurations/layerzero-v2-zklightclient-dvn-addresses",
+          "type": "external"
+        }
+      ]
     }
   ],
   "explorer": [
     {
-      "flarescan-mainnet": {
-        "provider": "Avascan",
-        "chain": "mainnet",
-        "technology": "Blockscout",
-        "monitoringAndAnalytics": [
-          "Accounts",
-          "Transactions",
-          "Blocks",
-          "Tokens",
-          "Gas",
-          "Contracts"
-        ],
-        "additionalFeatures": [
-          "C-Chain Support",
-          "P-Chain Support",
-          "Token Tracker",
-          "Network Metrics"
-        ],
-        "starred": "TRUE",
-        "api": ["REST", "GraphQL"],
-        "sdk": ["TypeScript", "Node.js"],
-        "searchCapabilities": ["Address", "Transaction Hash", "Block", "Token"],
-        "smartContractsVerifications": "TRUE",
-        "fullHistory": "TRUE",
-        "pricing": "Free",
-        "actionButtons": [
-          {
-            "label": "Explore",
-            "url": "https://mainnet.flarescan.com/",
-            "type": "external"
-          }
-        ]
-      },
-      "flarescan-songbird": {
-        "provider": "Avascan",
-        "chain": "Songbird",
-        "technology": "Blockscout",
-        "monitoringAndAnalytics": [
-          "Accounts",
-          "Transactions",
-          "Blocks",
-          "Tokens",
-          "Gas",
-          "Contracts"
-        ],
-        "additionalFeatures": [
-          "C-Chain Support",
-          "P-Chain Support",
-          "Token Tracker",
-          "Network Metrics"
-        ],
-        "starred": "FALSE",
-        "api": ["REST", "GraphQL"],
-        "sdk": ["TypeScript", "Node.js"],
-        "searchCapabilities": ["Address", "Transaction Hash", "Block", "Token"],
-        "smartContractsVerifications": "TRUE",
-        "fullHistory": "TRUE",
-        "pricing": "Free",
-        "actionButtons": [
-          {
-            "label": "Explore",
-            "url": "https://songbird.flarescan.com/",
-            "type": "external"
-          }
-        ]
-      },
-      "flarescan-coston2": {
-        "provider": "Avascan",
-        "chain": "Coston2",
-        "technology": "Blockscout",
-        "monitoringAndAnalytics": [
-          "Accounts",
-          "Transactions",
-          "Blocks",
-          "Tokens",
-          "Gas",
-          "Contracts"
-        ],
-        "additionalFeatures": [
-          "C-Chain Support",
-          "P-Chain Support",
-          "Token Tracker",
-          "Network Metrics"
-        ],
-        "starred": "FALSE",
-        "api": ["REST", "GraphQL"],
-        "sdk": ["TypeScript", "Node.js"],
-        "searchCapabilities": ["Address", "Transaction Hash", "Block", "Token"],
-        "smartContractsVerifications": "TRUE",
-        "fullHistory": "TRUE",
-        "pricing": "Free",
-        "actionButtons": [
-          {
-            "label": "Explore",
-            "url": "https://coston2.testnet.flarescan.com/",
-            "type": "external"
-          }
-        ]
-      },
-      "flarescan-coston": {
-        "provider": "Avascan",
-        "chain": "Coston",
-        "technology": "Blockscout",
-        "monitoringAndAnalytics": [
-          "Accounts",
-          "Transactions",
-          "Blocks",
-          "Tokens",
-          "Gas",
-          "Contracts"
-        ],
-        "additionalFeatures": [
-          "C-Chain Support",
-          "P-Chain Support",
-          "Token Tracker",
-          "Network Metrics"
-        ],
-        "starred": "FALSE",
-        "api": ["REST", "GraphQL"],
-        "sdk": ["TypeScript", "Node.js"],
-        "searchCapabilities": ["Address", "Transaction Hash", "Block", "Token"],
-        "smartContractsVerifications": "TRUE",
-        "fullHistory": "TRUE",
-        "pricing": "Free",
-        "actionButtons": [
-          {
-            "label": "Explore",
-            "url": "https://coston.testnet.flarescan.com/",
-            "type": "external"
-          }
-        ]
-      },
-      "flareexplorer-mainnet": {
-        "provider": "Flare Network",
-        "chain": "mainnet",
-        "technology": "Blockscout",
-        "monitoringAndAnalytics": [
-          "Accounts",
-          "Transactions",
-          "Blocks",
-          "Tokens",
-          "Gas",
-          "Contracts"
-        ],
-        "additionalFeatures": [
-          "C-Chain Support",
-          "P-Chain Support",
-          "Token Tracker",
-          "Network Metrics"
-        ],
-        "starred": "TRUE",
-        "api": ["REST", "GraphQL", "JSON-RPC"],
-        "sdk": ["TypeScript", "Node.js"],
-        "searchCapabilities": ["Address", "Transaction Hash", "Block", "Token"],
-        "smartContractsVerifications": "TRUE",
-        "fullHistory": "TRUE",
-        "pricing": "Free",
-        "actionButtons": [
-          {
-            "label": "Explore",
-            "url": "https://flare-explorer.flare.network/",
-            "type": "external"
-          }
-        ]
-      },
-      "flareexplorer-songbird": {
-        "provider": "Flare Network",
-        "chain": "Songbird",
-        "technology": "Blockscout",
-        "monitoringAndAnalytics": [
-          "Accounts",
-          "Transactions",
-          "Blocks",
-          "Tokens",
-          "Gas",
-          "Contracts"
-        ],
-        "additionalFeatures": [
-          "C-Chain Support",
-          "P-Chain Support",
-          "Token Tracker",
-          "Network Metrics"
-        ],
-        "starred": "FALSE",
-        "api": ["REST", "GraphQL", "JSON-RPC"],
-        "sdk": ["TypeScript", "Node.js"],
-        "searchCapabilities": ["Address", "Transaction Hash", "Block", "Token"],
-        "smartContractsVerifications": "TRUE",
-        "fullHistory": "TRUE",
-        "pricing": "Free",
-        "actionButtons": [
-          {
-            "label": "Explore",
-            "url": "https://songbird-explorer.flare.network/",
-            "type": "external"
-          }
-        ]
-      },
-      "flareexplorer-coston2": {
-        "provider": "Flare Network",
-        "chain": "Coston2",
-        "technology": "Blockscout",
-        "monitoringAndAnalytics": [
-          "Accounts",
-          "Transactions",
-          "Blocks",
-          "Tokens",
-          "Gas",
-          "Contracts"
-        ],
-        "additionalFeatures": [
-          "C-Chain Support",
-          "P-Chain Support",
-          "Token Tracker",
-          "Network Metrics"
-        ],
-        "starred": "FALSE",
-        "api": ["REST", "GraphQL", "JSON-RPC"],
-        "sdk": ["TypeScript", "Node.js"],
-        "searchCapabilities": ["Address", "Transaction Hash", "Block", "Token"],
-        "smartContractsVerifications": "TRUE",
-        "fullHistory": "TRUE",
-        "pricing": "Free",
-        "actionButtons": [
-          {
-            "label": "Explore",
-            "url": "https://coston2-explorer.flare.network/",
-            "type": "external"
-          }
-        ]
-      },
-      "flareexplorer-coston": {
-        "provider": "Flare Network",
-        "chain": "Coston",
-        "technology": "Blockscout",
-        "monitoringAndAnalytics": [
-          "Accounts",
-          "Transactions",
-          "Blocks",
-          "Tokens",
-          "Gas",
-          "Contracts"
-        ],
-        "additionalFeatures": [
-          "C-Chain Support",
-          "P-Chain Support",
-          "Token Tracker",
-          "Network Metrics"
-        ],
-        "starred": "FALSE",
-        "api": ["REST", "GraphQL", "JSON-RPC"],
-        "sdk": ["TypeScript", "Node.js"],
-        "searchCapabilities": ["Address", "Transaction Hash", "Block", "Token"],
-        "smartContractsVerifications": "TRUE",
-        "fullHistory": "TRUE",
-        "pricing": "Free",
-        "actionButtons": [
-          {
-            "label": "Explore",
-            "url": "https://coston-explorer.flare.network/",
-            "type": "external"
-          }
-        ]
-      },
-      "flaresystems-mainnet": {
-        "provider": "Flare Systems",
-        "chain": "mainnet",
-        "technology": "Custom",
-        "monitoringAndAnalytics": [
-          "FTSO Data",
-          "Staking Rewards",
-          "Epoch Status"
-        ],
-        "additionalFeatures": ["FTSO Monitoring", "Delegation Tracking"],
-        "starred": "TRUE",
-        "api": ["REST"],
-        "sdk": ["TypeScript"],
-        "searchCapabilities": ["Address", "Epoch", "Provider"],
-        "smartContractsVerifications": "FALSE",
-        "fullHistory": "FALSE",
-        "pricing": "Free",
-        "actionButtons": [
-          {
-            "label": "Explore",
-            "url": "https://flare-systems-explorer.flare.network/",
-            "type": "external"
-          }
-        ]
-      },
-      "flaresystems-songbird": {
-        "provider": "Flare Systems",
-        "chain": "Songbird",
-        "technology": "Custom",
-        "monitoringAndAnalytics": [
-          "FTSO Data",
-          "Staking Rewards",
-          "Epoch Status"
-        ],
-        "additionalFeatures": ["FTSO Monitoring", "Delegation Tracking"],
-        "starred": "FALSE",
-        "api": ["REST"],
-        "sdk": ["TypeScript"],
-        "searchCapabilities": ["Address", "Epoch", "Provider"],
-        "smartContractsVerifications": "FALSE",
-        "fullHistory": "FALSE",
-        "pricing": "Free",
-        "actionButtons": [
-          {
-            "label": "Explore",
-            "url": "https://songbird-systems-explorer.flare.network/",
-            "type": "external"
-          }
-        ]
-      }
+      "slug": "flarescan-mainnet",
+      "provider": "Avascan",
+      "chain": "mainnet",
+      "technology": "Blockscout",
+      "monitoringAndAnalytics": [
+        "Accounts",
+        "Transactions",
+        "Blocks",
+        "Tokens",
+        "Gas",
+        "Contracts"
+      ],
+      "additionalFeatures": [
+        "C-Chain Support",
+        "P-Chain Support",
+        "Token Tracker",
+        "Network Metrics"
+      ],
+      "starred": "TRUE",
+      "api": ["REST", "GraphQL"],
+      "sdk": ["TypeScript", "Node.js"],
+      "searchCapabilities": ["Address", "Transaction Hash", "Block", "Token"],
+      "smartContractsVerifications": "TRUE",
+      "fullHistory": "TRUE",
+      "pricing": "Free",
+      "actionButtons": [
+        {
+          "label": "Explore",
+          "url": "https://mainnet.flarescan.com/",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "flarescan-songbird",
+      "provider": "Avascan",
+      "chain": "Songbird",
+      "technology": "Blockscout",
+      "monitoringAndAnalytics": [
+        "Accounts",
+        "Transactions",
+        "Blocks",
+        "Tokens",
+        "Gas",
+        "Contracts"
+      ],
+      "additionalFeatures": [
+        "C-Chain Support",
+        "P-Chain Support",
+        "Token Tracker",
+        "Network Metrics"
+      ],
+      "starred": "FALSE",
+      "api": ["REST", "GraphQL"],
+      "sdk": ["TypeScript", "Node.js"],
+      "searchCapabilities": ["Address", "Transaction Hash", "Block", "Token"],
+      "smartContractsVerifications": "TRUE",
+      "fullHistory": "TRUE",
+      "pricing": "Free",
+      "actionButtons": [
+        {
+          "label": "Explore",
+          "url": "https://songbird.flarescan.com/",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "flarescan-coston2",
+      "provider": "Avascan",
+      "chain": "Coston2",
+      "technology": "Blockscout",
+      "monitoringAndAnalytics": [
+        "Accounts",
+        "Transactions",
+        "Blocks",
+        "Tokens",
+        "Gas",
+        "Contracts"
+      ],
+      "additionalFeatures": [
+        "C-Chain Support",
+        "P-Chain Support",
+        "Token Tracker",
+        "Network Metrics"
+      ],
+      "starred": "FALSE",
+      "api": ["REST", "GraphQL"],
+      "sdk": ["TypeScript", "Node.js"],
+      "searchCapabilities": ["Address", "Transaction Hash", "Block", "Token"],
+      "smartContractsVerifications": "TRUE",
+      "fullHistory": "TRUE",
+      "pricing": "Free",
+      "actionButtons": [
+        {
+          "label": "Explore",
+          "url": "https://coston2.testnet.flarescan.com/",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "flarescan-coston",
+      "provider": "Avascan",
+      "chain": "Coston",
+      "technology": "Blockscout",
+      "monitoringAndAnalytics": [
+        "Accounts",
+        "Transactions",
+        "Blocks",
+        "Tokens",
+        "Gas",
+        "Contracts"
+      ],
+      "additionalFeatures": [
+        "C-Chain Support",
+        "P-Chain Support",
+        "Token Tracker",
+        "Network Metrics"
+      ],
+      "starred": "FALSE",
+      "api": ["REST", "GraphQL"],
+      "sdk": ["TypeScript", "Node.js"],
+      "searchCapabilities": ["Address", "Transaction Hash", "Block", "Token"],
+      "smartContractsVerifications": "TRUE",
+      "fullHistory": "TRUE",
+      "pricing": "Free",
+      "actionButtons": [
+        {
+          "label": "Explore",
+          "url": "https://coston.testnet.flarescan.com/",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "flareexplorer-mainnet",
+      "provider": "Flare Network",
+      "chain": "mainnet",
+      "technology": "Blockscout",
+      "monitoringAndAnalytics": [
+        "Accounts",
+        "Transactions",
+        "Blocks",
+        "Tokens",
+        "Gas",
+        "Contracts"
+      ],
+      "additionalFeatures": [
+        "C-Chain Support",
+        "P-Chain Support",
+        "Token Tracker",
+        "Network Metrics"
+      ],
+      "starred": "TRUE",
+      "api": ["REST", "GraphQL", "JSON-RPC"],
+      "sdk": ["TypeScript", "Node.js"],
+      "searchCapabilities": ["Address", "Transaction Hash", "Block", "Token"],
+      "smartContractsVerifications": "TRUE",
+      "fullHistory": "TRUE",
+      "pricing": "Free",
+      "actionButtons": [
+        {
+          "label": "Explore",
+          "url": "https://flare-explorer.flare.network/",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "flareexplorer-songbird",
+      "provider": "Flare Network",
+      "chain": "Songbird",
+      "technology": "Blockscout",
+      "monitoringAndAnalytics": [
+        "Accounts",
+        "Transactions",
+        "Blocks",
+        "Tokens",
+        "Gas",
+        "Contracts"
+      ],
+      "additionalFeatures": [
+        "C-Chain Support",
+        "P-Chain Support",
+        "Token Tracker",
+        "Network Metrics"
+      ],
+      "starred": "FALSE",
+      "api": ["REST", "GraphQL", "JSON-RPC"],
+      "sdk": ["TypeScript", "Node.js"],
+      "searchCapabilities": ["Address", "Transaction Hash", "Block", "Token"],
+      "smartContractsVerifications": "TRUE",
+      "fullHistory": "TRUE",
+      "pricing": "Free",
+      "actionButtons": [
+        {
+          "label": "Explore",
+          "url": "https://songbird-explorer.flare.network/",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "flareexplorer-coston2",
+      "provider": "Flare Network",
+      "chain": "Coston2",
+      "technology": "Blockscout",
+      "monitoringAndAnalytics": [
+        "Accounts",
+        "Transactions",
+        "Blocks",
+        "Tokens",
+        "Gas",
+        "Contracts"
+      ],
+      "additionalFeatures": [
+        "C-Chain Support",
+        "P-Chain Support",
+        "Token Tracker",
+        "Network Metrics"
+      ],
+      "starred": "FALSE",
+      "api": ["REST", "GraphQL", "JSON-RPC"],
+      "sdk": ["TypeScript", "Node.js"],
+      "searchCapabilities": ["Address", "Transaction Hash", "Block", "Token"],
+      "smartContractsVerifications": "TRUE",
+      "fullHistory": "TRUE",
+      "pricing": "Free",
+      "actionButtons": [
+        {
+          "label": "Explore",
+          "url": "https://coston2-explorer.flare.network/",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "flareexplorer-coston",
+      "provider": "Flare Network",
+      "chain": "Coston",
+      "technology": "Blockscout",
+      "monitoringAndAnalytics": [
+        "Accounts",
+        "Transactions",
+        "Blocks",
+        "Tokens",
+        "Gas",
+        "Contracts"
+      ],
+      "additionalFeatures": [
+        "C-Chain Support",
+        "P-Chain Support",
+        "Token Tracker",
+        "Network Metrics"
+      ],
+      "starred": "FALSE",
+      "api": ["REST", "GraphQL", "JSON-RPC"],
+      "sdk": ["TypeScript", "Node.js"],
+      "searchCapabilities": ["Address", "Transaction Hash", "Block", "Token"],
+      "smartContractsVerifications": "TRUE",
+      "fullHistory": "TRUE",
+      "pricing": "Free",
+      "actionButtons": [
+        {
+          "label": "Explore",
+          "url": "https://coston-explorer.flare.network/",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "flaresystems-mainnet",
+      "provider": "Flare Systems",
+      "chain": "mainnet",
+      "technology": "Custom",
+      "monitoringAndAnalytics": [
+        "FTSO Data",
+        "Staking Rewards",
+        "Epoch Status"
+      ],
+      "additionalFeatures": ["FTSO Monitoring", "Delegation Tracking"],
+      "starred": "TRUE",
+      "api": ["REST"],
+      "sdk": ["TypeScript"],
+      "searchCapabilities": ["Address", "Epoch", "Provider"],
+      "smartContractsVerifications": "FALSE",
+      "fullHistory": "FALSE",
+      "pricing": "Free",
+      "actionButtons": [
+        {
+          "label": "Explore",
+          "url": "https://flare-systems-explorer.flare.network/",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "flaresystems-songbird",
+      "provider": "Flare Systems",
+      "chain": "Songbird",
+      "technology": "Custom",
+      "monitoringAndAnalytics": [
+        "FTSO Data",
+        "Staking Rewards",
+        "Epoch Status"
+      ],
+      "additionalFeatures": ["FTSO Monitoring", "Delegation Tracking"],
+      "starred": "FALSE",
+      "api": ["REST"],
+      "sdk": ["TypeScript"],
+      "searchCapabilities": ["Address", "Epoch", "Provider"],
+      "smartContractsVerifications": "FALSE",
+      "fullHistory": "FALSE",
+      "pricing": "Free",
+      "actionButtons": [
+        {
+          "label": "Explore",
+          "url": "https://songbird-systems-explorer.flare.network/",
+          "type": "external"
+        }
+      ]
     }
   ],
   "faucet": [
     {
-      "flare-coston-faucet": {
-        "provider": "Flare Network",
-        "chain": "coston",
-        "requiresLogin": "FALSE",
-        "hasCaptcha": "TRUE",
-        "requiresMainnetBalance": null,
-        "price": 0,
-        "dripLimitAmount": null,
-        "dripLimitPeriod": null,
-        "additionalNotes": [],
-        "starred": "TRUE",
-        "actionButtons": [
-          {
-            "label": "Get tokens",
-            "url": "https://faucet.flare.network/",
-            "type": "external"
-          }
-        ]
-      },
-      "flare-coston2-faucet": {
-        "provider": "Flare Network",
-        "chain": "coston2",
-        "requiresLogin": "FALSE",
-        "hasCaptcha": "TRUE",
-        "requiresMainnetBalance": null,
-        "price": 0,
-        "dripLimitAmount": null,
-        "dripLimitPeriod": null,
-        "additionalNotes": [],
-        "starred": "TRUE",
-        "actionButtons": [
-          {
-            "label": "Get tokens",
-            "url": "https://faucet.flare.network/",
-            "type": "external"
-          }
-        ]
-      }
+      "slug": "flare-coston-faucet",
+      "provider": "Flare Network",
+      "chain": "coston",
+      "requiresLogin": "FALSE",
+      "hasCaptcha": "TRUE",
+      "requiresMainnetBalance": null,
+      "price": 0,
+      "dripLimitAmount": null,
+      "dripLimitPeriod": null,
+      "additionalNotes": [],
+      "starred": "TRUE",
+      "actionButtons": [
+        {
+          "label": "Get tokens",
+          "url": "https://faucet.flare.network/",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "flare-coston2-faucet",
+      "provider": "Flare Network",
+      "chain": "coston2",
+      "requiresLogin": "FALSE",
+      "hasCaptcha": "TRUE",
+      "requiresMainnetBalance": null,
+      "price": 0,
+      "dripLimitAmount": null,
+      "dripLimitPeriod": null,
+      "additionalNotes": [],
+      "starred": "TRUE",
+      "actionButtons": [
+        {
+          "label": "Get tokens",
+          "url": "https://faucet.flare.network/",
+          "type": "external"
+        }
+      ]
     }
   ],
   "analytic": [
     {
-      "dune-mainnet": {
-        "provider": "Dune Analytics",
-        "perChain": "mainnet",
-        "dataSources": [
-          "Transactions",
-          "Active Users",
-          "Token Price",
-          "Tokens",
-          "Gas Usage",
-          "Contracts",
-          "FTSO Data"
-        ],
-        "hasDashboard": "TRUE",
-        "supportsAPI": "TRUE",
-        "price": 0,
-        "starred": "FALSE",
-        "actionButtons": [
-          {
-            "label": "Dashboard",
-            "url": "https://dune.com/flare/flare-network-overview",
-            "type": "external"
-          }
-        ]
-      },
-      "intotheblock-mainnet": {
-        "provider": "Into the Block",
-        "perChain": "mainnet",
-        "dataSources": [
-          "Total Value Locked",
-          "Transactions",
-          "Liquidity",
-          "Token Performance",
-          "Active Users",
-          "Contracts"
-        ],
-        "hasDashboard": "TRUE",
-        "supportsAPI": "TRUE",
-        "price": "Subscription-based",
-        "starred": "FALSE",
-        "actionButtons": [
-          {
-            "label": "Dashboard",
-            "url": "https://app.intotheblock.com/perspectives/flare_defi_ecosystem",
-            "type": "external"
-          }
-        ]
-      },
-      "arkham-mainnet": {
-        "provider": "Arkham Intelligence",
-        "perChain": "mainnet",
-        "dataSources": [
-          "Transactions",
-          "Active Users",
-          "Contracts",
-          "DApp Interactions"
-        ],
-        "hasDashboard": "TRUE",
-        "supportsAPI": "TRUE",
-        "price": "Subscription-based",
-        "starred": "FALSE",
-        "actionButtons": [
-          {
-            "label": "Dashboard",
-            "url": "https://intel.arkm.com/explorer/entity/flare-network",
-            "type": "external"
-          }
-        ]
-      },
-      "flaresystems-mainnet": {
-        "provider": "Flare Systems",
-        "perChain": "mainnet",
-        "dataSources": [
-          "FTSO Data",
-          "Staking Rewards",
-          "Epoch Status",
-          "Vote Power",
-          "Validator Activity"
-        ],
-        "hasDashboard": "TRUE",
-        "supportsAPI": "TRUE",
-        "price": 0,
-        "starred": "TRUE",
-        "actionButtons": [
-          {
-            "label": "Dashboard",
-            "url": "https://flare-systems-explorer.flare.network/",
-            "type": "external"
-          }
-        ]
-      },
-      "flarespace-mainnet": {
-        "provider": "Flare.Space",
-        "perChain": "mainnet",
-        "dataSources": [
-          "Delegation Metrics",
-          "Staking Metrics",
-          "Smart Contracts",
-          "Tokens",
-          "Cross-Chain Activity"
-        ],
-        "hasDashboard": "TRUE",
-        "supportsAPI": "FALSE",
-        "price": 0,
-        "starred": "TRUE",
-        "actionButtons": [
-          {
-            "label": "Dashboard",
-            "url": "https://flare.space/",
-            "type": "external"
-          }
-        ]
-      },
-      "flaremetrics-mainnet": {
-        "provider": "Flare Metrics",
-        "perChain": "mainnet",
-        "dataSources": [
-          "FTSO Data",
-          "Staking Rewards",
-          "Vote Power",
-          "Validator Activity",
-          "DeFi Metrics"
-        ],
-        "hasDashboard": "TRUE",
-        "supportsAPI": "FALSE",
-        "price": 0,
-        "starred": "TRUE",
-        "actionButtons": [
-          {
-            "label": "Dashboard",
-            "url": "https://flaremetrics.io/",
-            "type": "external"
-          }
-        ]
-      },
-      "flaremetrics-songbird": {
-        "provider": "Flare Metrics",
-        "perChain": "songbird",
-        "dataSources": [
-          "FTSO Data",
-          "Staking Rewards",
-          "Vote Power",
-          "Validator Activity",
-          "DeFi Metrics"
-        ],
-        "hasDashboard": "TRUE",
-        "supportsAPI": "FALSE",
-        "price": 0,
-        "starred": "TRUE",
-        "actionButtons": [
-          {
-            "label": "Dashboard",
-            "url": "https://flaremetrics.io/songbird",
-            "type": "external"
-          }
-        ]
-      }
+      "slug": "dune-mainnet",
+      "provider": "Dune Analytics",
+      "perChain": "mainnet",
+      "dataSources": [
+        "Transactions",
+        "Active Users",
+        "Token Price",
+        "Tokens",
+        "Gas Usage",
+        "Contracts",
+        "FTSO Data"
+      ],
+      "hasDashboard": "TRUE",
+      "supportsAPI": "TRUE",
+      "price": 0,
+      "starred": "FALSE",
+      "actionButtons": [
+        {
+          "label": "Dashboard",
+          "url": "https://dune.com/flare/flare-network-overview",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "intotheblock-mainnet",
+      "provider": "Into the Block",
+      "perChain": "mainnet",
+      "dataSources": [
+        "Total Value Locked",
+        "Transactions",
+        "Liquidity",
+        "Token Performance",
+        "Active Users",
+        "Contracts"
+      ],
+      "hasDashboard": "TRUE",
+      "supportsAPI": "TRUE",
+      "price": "Subscription-based",
+      "starred": "FALSE",
+      "actionButtons": [
+        {
+          "label": "Dashboard",
+          "url": "https://app.intotheblock.com/perspectives/flare_defi_ecosystem",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "arkham-mainnet",
+      "provider": "Arkham Intelligence",
+      "perChain": "mainnet",
+      "dataSources": [
+        "Transactions",
+        "Active Users",
+        "Contracts",
+        "DApp Interactions"
+      ],
+      "hasDashboard": "TRUE",
+      "supportsAPI": "TRUE",
+      "price": "Subscription-based",
+      "starred": "FALSE",
+      "actionButtons": [
+        {
+          "label": "Dashboard",
+          "url": "https://intel.arkm.com/explorer/entity/flare-network",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "flaresystems-mainnet",
+      "provider": "Flare Systems",
+      "perChain": "mainnet",
+      "dataSources": [
+        "FTSO Data",
+        "Staking Rewards",
+        "Epoch Status",
+        "Vote Power",
+        "Validator Activity"
+      ],
+      "hasDashboard": "TRUE",
+      "supportsAPI": "TRUE",
+      "price": 0,
+      "starred": "TRUE",
+      "actionButtons": [
+        {
+          "label": "Dashboard",
+          "url": "https://flare-systems-explorer.flare.network/",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "flarespace-mainnet",
+      "provider": "Flare.Space",
+      "perChain": "mainnet",
+      "dataSources": [
+        "Delegation Metrics",
+        "Staking Metrics",
+        "Smart Contracts",
+        "Tokens",
+        "Cross-Chain Activity"
+      ],
+      "hasDashboard": "TRUE",
+      "supportsAPI": "FALSE",
+      "price": 0,
+      "starred": "TRUE",
+      "actionButtons": [
+        {
+          "label": "Dashboard",
+          "url": "https://flare.space/",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "flaremetrics-mainnet",
+      "provider": "Flare Metrics",
+      "perChain": "mainnet",
+      "dataSources": [
+        "FTSO Data",
+        "Staking Rewards",
+        "Vote Power",
+        "Validator Activity",
+        "DeFi Metrics"
+      ],
+      "hasDashboard": "TRUE",
+      "supportsAPI": "FALSE",
+      "price": 0,
+      "starred": "TRUE",
+      "actionButtons": [
+        {
+          "label": "Dashboard",
+          "url": "https://flaremetrics.io/",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "flaremetrics-songbird",
+      "provider": "Flare Metrics",
+      "perChain": "songbird",
+      "dataSources": [
+        "FTSO Data",
+        "Staking Rewards",
+        "Vote Power",
+        "Validator Activity",
+        "DeFi Metrics"
+      ],
+      "hasDashboard": "TRUE",
+      "supportsAPI": "FALSE",
+      "price": 0,
+      "starred": "TRUE",
+      "actionButtons": [
+        {
+          "label": "Dashboard",
+          "url": "https://flaremetrics.io/songbird",
+          "type": "external"
+        }
+      ]
     }
   ],
   "wallet": [
     {
-      "metamask": {
-        "provider": "Metamask",
-        "openSource": "TRUE",
-        "supportedPlatforms": ["Chrome", "Firefox", "Edge", "iOS", "Android"],
-        "custodial": "FALSE",
-        "mfa": "FALSE",
-        "msig": "FALSE",
-        "hardware": "TRUE",
-        "keyExport": "TRUE",
-        "native": "FALSE",
-        "evm": "TRUE",
-        "Wh": "FALSE",
-        "tokensSupport": ["ERC-20", "ERC-721", "ERC-1155"],
-        "staking": "FALSE",
-        "price": 0,
-        "support": ["email", "helpdesk"],
-        "audit": ["October 2024 by ConsenSys Diligence"],
-        "languages": ["EN", "ES", "FR", "RU", "ZH", "JA"],
-        "starred": "TRUE",
-        "actionButtons": [
-          {
-            "label": "Website",
-            "url": "https://metamask.io/",
-            "type": "external"
-          }
-        ]
-      },
-      "bifrost": {
-        "provider": "Bifrost",
-        "openSource": "FALSE",
-        "supportedPlatforms": ["iOS", "Android", "Web"],
-        "custodial": "FALSE",
-        "mfa": "TRUE",
-        "msig": "FALSE",
-        "hardware": "FALSE",
-        "keyExport": "TRUE",
-        "native": "TRUE",
-        "evm": "TRUE",
-        "Wh": "FALSE",
-        "tokensSupport": ["ERC-20"],
-        "staking": "TRUE",
-        "price": 0,
-        "support": ["email", "discord"],
-        "audit": [],
-        "languages": ["EN"],
-        "starred": "FALSE",
-        "actionButtons": [
-          {
-            "label": "Website",
-            "url": "https://bifrostwallet.com/",
-            "type": "external"
-          }
-        ]
-      },
-      "ledger": {
-        "provider": "Ledger SAS",
-        "openSource": "FALSE",
-        "supportedPlatforms": ["Desktop", "iOS", "Android"],
-        "custodial": "FALSE",
-        "mfa": "TRUE",
-        "msig": "FALSE",
-        "hardware": "TRUE",
-        "keyExport": "TRUE",
-        "native": "TRUE",
-        "evm": "TRUE",
-        "Wh": "FALSE",
-        "tokensSupport": ["ERC-20", "ERC-721", "ERC-1155"],
-        "staking": "TRUE",
-        "price": "Paid",
-        "support": ["email", "helpdesk"],
-        "audit": "Regular audits by third parties",
-        "languages": ["EN", "FR", "ES", "DE", "ZH", "JA"],
-        "starred": "FALSE",
-        "actionButtons": [
-          {
-            "label": "Website",
-            "url": "https://www.ledger.com/",
-            "type": "external"
-          }
-        ]
-      },
-      "solidifi": {
-        "provider": "SolidiFi",
-        "openSource": "FALSE",
-        "supportedPlatforms": ["iOS", "Android"],
-        "custodial": "FALSE",
-        "mfa": "TRUE",
-        "msig": "FALSE",
-        "hardware": "FALSE",
-        "keyExport": "TRUE",
-        "native": "TRUE",
-        "evm": "TRUE",
-        "Wh": "FALSE",
-        "tokensSupport": ["ERC-20"],
-        "staking": "TRUE",
-        "price": 0,
-        "support": ["email", "discord"],
-        "audit": [],
-        "languages": ["EN"],
-        "starred": "FALSE",
-        "actionButtons": [
-          {
-            "label": "Website",
-            "url": "https://solidifi.app/",
-            "type": "external"
-          }
-        ]
-      },
-      "oxenflow": {
-        "provider": "Oxenflow",
-        "openSource": "FALSE",
-        "supportedPlatforms": ["iOS", "Android", "Web"],
-        "custodial": "FALSE",
-        "mfa": "TRUE",
-        "msig": "FALSE",
-        "hardware": "FALSE",
-        "keyExport": "TRUE",
-        "native": "TRUE",
-        "evm": "TRUE",
-        "Wh": "FALSE",
-        "tokensSupport": ["ERC-20"],
-        "staking": "TRUE",
-        "price": 0,
-        "support": ["email", "discord"],
-        "audit": [],
-        "languages": ["EN"],
-        "starred": "FALSE",
-        "actionButtons": [
-          {
-            "label": "Website",
-            "url": "https://oxenflow.com/",
-            "type": "external"
-          }
-        ]
-      },
-      "safepal": {
-        "provider": "SafePal",
-        "openSource": "FALSE",
-        "supportedPlatforms": ["iOS", "Android", "Hardware"],
-        "custodial": "FALSE",
-        "mfa": "TRUE",
-        "msig": "FALSE",
-        "hardware": "TRUE",
-        "keyExport": "TRUE",
-        "native": "TRUE",
-        "evm": "TRUE",
-        "Wh": "FALSE",
-        "tokensSupport": ["ERC-20", "ERC-721", "ERC-1155"],
-        "staking": "TRUE",
-        "price": "Paid",
-        "support": ["email", "telegram", "discord"],
-        "audit": [],
-        "languages": ["EN", "ZH", "JA"],
-        "starred": "FALSE",
-        "actionButtons": [
-          {
-            "label": "Website",
-            "url": "https://www.safepal.com/",
-            "type": "external"
-          }
-        ]
-      },
-      "tokenpocket": {
-        "provider": "TokenPocket",
-        "openSource": "FALSE",
-        "supportedPlatforms": ["iOS", "Android", "Chrome"],
-        "custodial": "FALSE",
-        "mfa": "TRUE",
-        "msig": "FALSE",
-        "hardware": "FALSE",
-        "keyExport": "TRUE",
-        "native": "TRUE",
-        "evm": "TRUE",
-        "Wh": "FALSE",
-        "tokensSupport": ["ERC-20", "ERC-721", "ERC-1155"],
-        "staking": "TRUE",
-        "price": 0,
-        "support": ["email", "telegram", "discord"],
-        "audit": [],
-        "languages": ["EN", "ZH", "JA"],
-        "starred": "FALSE",
-        "actionButtons": [
-          {
-            "label": "Website",
-            "url": "https://www.tokenpocket.pro/",
-            "type": "external"
-          }
-        ]
-      },
-      "coolwallet": {
-        "provider": "Coolwallet",
-        "openSource": "FALSE",
-        "supportedPlatforms": ["iOS", "Android"],
-        "custodial": "FALSE",
-        "mfa": "TRUE",
-        "msig": "FALSE",
-        "hardware": "TRUE",
-        "keyExport": "TRUE",
-        "native": "TRUE",
-        "evm": "TRUE",
-        "Wh": "FALSE",
-        "tokensSupport": ["ERC-20", "ERC-721", "ERC-1155"],
-        "staking": "TRUE",
-        "price": "Paid",
-        "support": ["email", "telegram"],
-        "audit": [],
-        "languages": ["EN", "ZH"],
-        "starred": "FALSE",
-        "actionButtons": [
-          {
-            "label": "Website",
-            "url": "https://www.coolwallet.io/",
-            "type": "external"
-          }
-        ]
-      },
-      "dcent": {
-        "provider": "D’CENT",
-        "openSource": "FALSE",
-        "supportedPlatforms": ["iOS", "Android", "Hardware"],
-        "custodial": "FALSE",
-        "mfa": "TRUE",
-        "msig": "FALSE",
-        "hardware": "TRUE",
-        "keyExport": "TRUE",
-        "native": "TRUE",
-        "evm": "TRUE",
-        "Wh": "FALSE",
-        "tokensSupport": ["ERC-20", "ERC-721", "ERC-1155"],
-        "staking": "TRUE",
-        "price": "Paid",
-        "support": ["email", "telegram"],
-        "audit": [],
-        "languages": ["EN", "ZH", "JA"],
-        "starred": "FALSE",
-        "actionButtons": [
-          {
-            "label": "Website",
-            "url": "https://dcentwallet.com/",
-            "type": "external"
-          }
-        ]
-      },
-      "rabby": {
-        "provider": "Rabby",
-        "openSource": "TRUE",
-        "supportedPlatforms": ["Chrome", "Brave", "Edge", "iOS", "Android"],
-        "custodial": "FALSE",
-        "mfa": "TRUE",
-        "msig": "FALSE",
-        "hardware": "TRUE",
-        "keyExport": "TRUE",
-        "native": "TRUE",
-        "evm": "TRUE",
-        "Wh": "FALSE",
-        "tokensSupport": ["ERC-20", "ERC-721", "ERC-1155"],
-        "staking": "FALSE",
-        "price": 0,
-        "support": ["email", "discord", "telegram"],
-        "audit": "Regular audits by third parties",
-        "languages": ["EN", "ZH", "JA"],
-        "starred": "TRUE",
-        "actionButtons": [
-          {
-            "label": "Website",
-            "url": "https://rabby.io/",
-            "type": "external"
-          }
-        ]
-      },
-      "trustwallet": {
-        "provider": "Trust Wallet",
-        "openSource": "FALSE",
-        "supportedPlatforms": ["iOS", "Android", "Chrome"],
-        "custodial": "FALSE",
-        "mfa": "TRUE",
-        "msig": "FALSE",
-        "hardware": "FALSE",
-        "keyExport": "TRUE",
-        "native": "FALSE",
-        "evm": "TRUE",
-        "Wh": "FALSE",
-        "tokensSupport": ["ERC-20", "ERC-721", "ERC-1155"],
-        "staking": "TRUE",
-        "price": 0,
-        "support": ["email", "helpdesk"],
-        "audit": [],
-        "languages": ["EN", "ES", "FR", "ZH", "JA"],
-        "starred": "FALSE",
-        "actionButtons": [
-          {
-            "label": "Website",
-            "url": "https://trustwallet.com/",
-            "type": "external"
-          }
-        ]
-      },
-      "zerion": {
-        "provider": "Zerion",
-        "openSource": "TRUE",
-        "supportedPlatforms": ["iOS", "Android", "Chrome"],
-        "custodial": "FALSE",
-        "mfa": "TRUE",
-        "msig": "FALSE",
-        "hardware": "FALSE",
-        "keyExport": "TRUE",
-        "native": "FALSE",
-        "evm": "TRUE",
-        "Wh": "FALSE",
-        "tokensSupport": ["ERC-20", "ERC-721", "ERC-1155"],
-        "staking": "TRUE",
-        "price": 0,
-        "support": ["email", "discord"],
-        "audit": [],
-        "languages": ["EN", "ES", "FR"],
-        "starred": "FALSE",
-        "actionButtons": [
-          {
-            "label": "Website",
-            "url": "https://zerion.io/",
-            "type": "external"
-          }
-        ]
-      },
-      "phantom": {
-        "provider": "Phantom",
-        "openSource": "TRUE",
-        "supportedPlatforms": ["Chrome", "Firefox", "iOS", "Android"],
-        "custodial": "FALSE",
-        "mfa": "TRUE",
-        "msig": "FALSE",
-        "hardware": "TRUE",
-        "keyExport": "TRUE",
-        "native": "FALSE",
-        "evm": "TRUE",
-        "Wh": "FALSE",
-        "tokensSupport": ["ERC-20", "ERC-721", "ERC-1155"],
-        "staking": "TRUE",
-        "price": 0,
-        "support": ["email", "helpdesk"],
-        "audit": [],
-        "languages": ["EN", "ES", "FR"],
-        "starred": "TRUE",
-        "actionButtons": [
-          {
-            "label": "Website",
-            "url": "https://phantom.app/",
-            "type": "external"
-          }
-        ]
-      },
-      "luminite": {
-        "provider": "Luminite",
-        "openSource": "FALSE",
-        "supportedPlatforms": ["Browser", "iOS"],
-        "custodial": "FALSE",
-        "mfa": "FALSE",
-        "msig": "FALSE",
-        "hardware": "FALSE",
-        "keyExport": "TRUE",
-        "native": "TRUE",
-        "evm": "TRUE",
-        "Wh": "FALSE",
-        "tokensSupport": ["ERC-20"],
-        "staking": "TRUE",
-        "price": 0,
-        "support": ["telegram", "discord"],
-        "audit": [],
-        "languages": ["EN"],
-        "starred": "TRUE",
-        "actionButtons": [
-          {
-            "label": "Website",
-            "url": "https://www.luminite.app/",
-            "type": "external"
-          }
-        ]
-      }
+      "slug": "metamask",
+      "provider": "Metamask",
+      "openSource": "TRUE",
+      "supportedPlatforms": ["Chrome", "Firefox", "Edge", "iOS", "Android"],
+      "custodial": "FALSE",
+      "mfa": "FALSE",
+      "msig": "FALSE",
+      "hardware": "TRUE",
+      "keyExport": "TRUE",
+      "native": "FALSE",
+      "evm": "TRUE",
+      "Wh": "FALSE",
+      "tokensSupport": ["ERC-20", "ERC-721", "ERC-1155"],
+      "staking": "FALSE",
+      "price": 0,
+      "support": ["email", "helpdesk"],
+      "audit": ["October 2024 by ConsenSys Diligence"],
+      "languages": ["EN", "ES", "FR", "RU", "ZH", "JA"],
+      "starred": "TRUE",
+      "actionButtons": [
+        {
+          "label": "Website",
+          "url": "https://metamask.io/",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "bifrost",
+      "provider": "Bifrost",
+      "openSource": "FALSE",
+      "supportedPlatforms": ["iOS", "Android", "Web"],
+      "custodial": "FALSE",
+      "mfa": "TRUE",
+      "msig": "FALSE",
+      "hardware": "FALSE",
+      "keyExport": "TRUE",
+      "native": "TRUE",
+      "evm": "TRUE",
+      "Wh": "FALSE",
+      "tokensSupport": ["ERC-20"],
+      "staking": "TRUE",
+      "price": 0,
+      "support": ["email", "discord"],
+      "audit": [],
+      "languages": ["EN"],
+      "starred": "FALSE",
+      "actionButtons": [
+        {
+          "label": "Website",
+          "url": "https://bifrostwallet.com/",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "ledger",
+      "provider": "Ledger SAS",
+      "openSource": "FALSE",
+      "supportedPlatforms": ["Desktop", "iOS", "Android"],
+      "custodial": "FALSE",
+      "mfa": "TRUE",
+      "msig": "FALSE",
+      "hardware": "TRUE",
+      "keyExport": "TRUE",
+      "native": "TRUE",
+      "evm": "TRUE",
+      "Wh": "FALSE",
+      "tokensSupport": ["ERC-20", "ERC-721", "ERC-1155"],
+      "staking": "TRUE",
+      "price": "Paid",
+      "support": ["email", "helpdesk"],
+      "audit": "Regular audits by third parties",
+      "languages": ["EN", "FR", "ES", "DE", "ZH", "JA"],
+      "starred": "FALSE",
+      "actionButtons": [
+        {
+          "label": "Website",
+          "url": "https://www.ledger.com/",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "solidifi",
+      "provider": "SolidiFi",
+      "openSource": "FALSE",
+      "supportedPlatforms": ["iOS", "Android"],
+      "custodial": "FALSE",
+      "mfa": "TRUE",
+      "msig": "FALSE",
+      "hardware": "FALSE",
+      "keyExport": "TRUE",
+      "native": "TRUE",
+      "evm": "TRUE",
+      "Wh": "FALSE",
+      "tokensSupport": ["ERC-20"],
+      "staking": "TRUE",
+      "price": 0,
+      "support": ["email", "discord"],
+      "audit": [],
+      "languages": ["EN"],
+      "starred": "FALSE",
+      "actionButtons": [
+        {
+          "label": "Website",
+          "url": "https://solidifi.app/",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "oxenflow",
+      "provider": "Oxenflow",
+      "openSource": "FALSE",
+      "supportedPlatforms": ["iOS", "Android", "Web"],
+      "custodial": "FALSE",
+      "mfa": "TRUE",
+      "msig": "FALSE",
+      "hardware": "FALSE",
+      "keyExport": "TRUE",
+      "native": "TRUE",
+      "evm": "TRUE",
+      "Wh": "FALSE",
+      "tokensSupport": ["ERC-20"],
+      "staking": "TRUE",
+      "price": 0,
+      "support": ["email", "discord"],
+      "audit": [],
+      "languages": ["EN"],
+      "starred": "FALSE",
+      "actionButtons": [
+        {
+          "label": "Website",
+          "url": "https://oxenflow.com/",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "safepal",
+      "provider": "SafePal",
+      "openSource": "FALSE",
+      "supportedPlatforms": ["iOS", "Android", "Hardware"],
+      "custodial": "FALSE",
+      "mfa": "TRUE",
+      "msig": "FALSE",
+      "hardware": "TRUE",
+      "keyExport": "TRUE",
+      "native": "TRUE",
+      "evm": "TRUE",
+      "Wh": "FALSE",
+      "tokensSupport": ["ERC-20", "ERC-721", "ERC-1155"],
+      "staking": "TRUE",
+      "price": "Paid",
+      "support": ["email", "telegram", "discord"],
+      "audit": [],
+      "languages": ["EN", "ZH", "JA"],
+      "starred": "FALSE",
+      "actionButtons": [
+        {
+          "label": "Website",
+          "url": "https://www.safepal.com/",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "tokenpocket",
+      "provider": "TokenPocket",
+      "openSource": "FALSE",
+      "supportedPlatforms": ["iOS", "Android", "Chrome"],
+      "custodial": "FALSE",
+      "mfa": "TRUE",
+      "msig": "FALSE",
+      "hardware": "FALSE",
+      "keyExport": "TRUE",
+      "native": "TRUE",
+      "evm": "TRUE",
+      "Wh": "FALSE",
+      "tokensSupport": ["ERC-20", "ERC-721", "ERC-1155"],
+      "staking": "TRUE",
+      "price": 0,
+      "support": ["email", "telegram", "discord"],
+      "audit": [],
+      "languages": ["EN", "ZH", "JA"],
+      "starred": "FALSE",
+      "actionButtons": [
+        {
+          "label": "Website",
+          "url": "https://www.tokenpocket.pro/",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "coolwallet",
+      "provider": "Coolwallet",
+      "openSource": "FALSE",
+      "supportedPlatforms": ["iOS", "Android"],
+      "custodial": "FALSE",
+      "mfa": "TRUE",
+      "msig": "FALSE",
+      "hardware": "TRUE",
+      "keyExport": "TRUE",
+      "native": "TRUE",
+      "evm": "TRUE",
+      "Wh": "FALSE",
+      "tokensSupport": ["ERC-20", "ERC-721", "ERC-1155"],
+      "staking": "TRUE",
+      "price": "Paid",
+      "support": ["email", "telegram"],
+      "audit": [],
+      "languages": ["EN", "ZH"],
+      "starred": "FALSE",
+      "actionButtons": [
+        {
+          "label": "Website",
+          "url": "https://www.coolwallet.io/",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "dcent",
+      "provider": "D’CENT",
+      "openSource": "FALSE",
+      "supportedPlatforms": ["iOS", "Android", "Hardware"],
+      "custodial": "FALSE",
+      "mfa": "TRUE",
+      "msig": "FALSE",
+      "hardware": "TRUE",
+      "keyExport": "TRUE",
+      "native": "TRUE",
+      "evm": "TRUE",
+      "Wh": "FALSE",
+      "tokensSupport": ["ERC-20", "ERC-721", "ERC-1155"],
+      "staking": "TRUE",
+      "price": "Paid",
+      "support": ["email", "telegram"],
+      "audit": [],
+      "languages": ["EN", "ZH", "JA"],
+      "starred": "FALSE",
+      "actionButtons": [
+        {
+          "label": "Website",
+          "url": "https://dcentwallet.com/",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "rabby",
+      "provider": "Rabby",
+      "openSource": "TRUE",
+      "supportedPlatforms": ["Chrome", "Brave", "Edge", "iOS", "Android"],
+      "custodial": "FALSE",
+      "mfa": "TRUE",
+      "msig": "FALSE",
+      "hardware": "TRUE",
+      "keyExport": "TRUE",
+      "native": "TRUE",
+      "evm": "TRUE",
+      "Wh": "FALSE",
+      "tokensSupport": ["ERC-20", "ERC-721", "ERC-1155"],
+      "staking": "FALSE",
+      "price": 0,
+      "support": ["email", "discord", "telegram"],
+      "audit": "Regular audits by third parties",
+      "languages": ["EN", "ZH", "JA"],
+      "starred": "TRUE",
+      "actionButtons": [
+        {
+          "label": "Website",
+          "url": "https://rabby.io/",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "trustwallet",
+      "provider": "Trust Wallet",
+      "openSource": "FALSE",
+      "supportedPlatforms": ["iOS", "Android", "Chrome"],
+      "custodial": "FALSE",
+      "mfa": "TRUE",
+      "msig": "FALSE",
+      "hardware": "FALSE",
+      "keyExport": "TRUE",
+      "native": "FALSE",
+      "evm": "TRUE",
+      "Wh": "FALSE",
+      "tokensSupport": ["ERC-20", "ERC-721", "ERC-1155"],
+      "staking": "TRUE",
+      "price": 0,
+      "support": ["email", "helpdesk"],
+      "audit": [],
+      "languages": ["EN", "ES", "FR", "ZH", "JA"],
+      "starred": "FALSE",
+      "actionButtons": [
+        {
+          "label": "Website",
+          "url": "https://trustwallet.com/",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "zerion",
+      "provider": "Zerion",
+      "openSource": "TRUE",
+      "supportedPlatforms": ["iOS", "Android", "Chrome"],
+      "custodial": "FALSE",
+      "mfa": "TRUE",
+      "msig": "FALSE",
+      "hardware": "FALSE",
+      "keyExport": "TRUE",
+      "native": "FALSE",
+      "evm": "TRUE",
+      "Wh": "FALSE",
+      "tokensSupport": ["ERC-20", "ERC-721", "ERC-1155"],
+      "staking": "TRUE",
+      "price": 0,
+      "support": ["email", "discord"],
+      "audit": [],
+      "languages": ["EN", "ES", "FR"],
+      "starred": "FALSE",
+      "actionButtons": [
+        {
+          "label": "Website",
+          "url": "https://zerion.io/",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "phantom",
+      "provider": "Phantom",
+      "openSource": "TRUE",
+      "supportedPlatforms": ["Chrome", "Firefox", "iOS", "Android"],
+      "custodial": "FALSE",
+      "mfa": "TRUE",
+      "msig": "FALSE",
+      "hardware": "TRUE",
+      "keyExport": "TRUE",
+      "native": "FALSE",
+      "evm": "TRUE",
+      "Wh": "FALSE",
+      "tokensSupport": ["ERC-20", "ERC-721", "ERC-1155"],
+      "staking": "TRUE",
+      "price": 0,
+      "support": ["email", "helpdesk"],
+      "audit": [],
+      "languages": ["EN", "ES", "FR"],
+      "starred": "TRUE",
+      "actionButtons": [
+        {
+          "label": "Website",
+          "url": "https://phantom.app/",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "luminite",
+      "provider": "Luminite",
+      "openSource": "FALSE",
+      "supportedPlatforms": ["Browser", "iOS"],
+      "custodial": "FALSE",
+      "mfa": "FALSE",
+      "msig": "FALSE",
+      "hardware": "FALSE",
+      "keyExport": "TRUE",
+      "native": "TRUE",
+      "evm": "TRUE",
+      "Wh": "FALSE",
+      "tokensSupport": ["ERC-20"],
+      "staking": "TRUE",
+      "price": 0,
+      "support": ["telegram", "discord"],
+      "audit": [],
+      "languages": ["EN"],
+      "starred": "TRUE",
+      "actionButtons": [
+        {
+          "label": "Website",
+          "url": "https://www.luminite.app/",
+          "type": "external"
+        }
+      ]
     }
   ],
   "devTool": [
     {
-      "turnkey": {
-        "tag": ["JavaScript", "Wallet SDK"],
-        "toolName": "Turnkey",
-        "toolType": "SDK",
-        "price": 0,
-        "description": "Single API for creating embedded wallets, smart signers, and automating onchain actions",
-        "starred": "FALSE",
-        "actionButtons": [
-          {
-            "label": "Docs",
-            "url": "https://docs.turnkey.com/",
-            "type": "external"
-          }
-        ]
-      },
-      "wagmi": {
-        "tag": ["TypeScript", "React hooks", "Wallet SDK"],
-        "toolName": "Wagmi",
-        "toolType": "SDK",
-        "price": 0,
-        "description": "React hooks library streamlining wallet connections and contract interactions",
-        "starred": "TRUE",
-        "actionButtons": [
-          {
-            "label": "Docs",
-            "url": "https://wagmi.sh/",
-            "type": "external"
-          }
-        ]
-      },
-      "rainbowkit": {
-        "tag": ["React hooks", "Wallet SDK"],
-        "toolName": "RainbowKit",
-        "toolType": "SDK",
-        "price": 0,
-        "description": "Customizable React components for wallet connections",
-        "starred": "FALSE",
-        "actionButtons": [
-          {
-            "label": "Docs",
-            "url": "https://rainbowkit.com/docs/introduction/",
-            "type": "external"
-          }
-        ]
-      },
-      "web3auth": {
-        "tag": ["Social logins", "Wallet SDK"],
-        "toolName": "Web3Auth",
-        "toolType": "SDK",
-        "price": 0,
-        "description": "OAuth social logins with non-custodial key management for Web3 applications.",
-        "starred": "TRUE",
-        "actionButtons": [
-          {
-            "label": "Docs",
-            "url": "https://web3auth.io/docs/",
-            "type": "external"
-          }
-        ]
-      },
-      "etherspot": {
-        "tag": ["Account abstraction", "Wallet SDK"],
-        "toolName": "Etherspot Prime SDK",
-        "toolType": "SDK",
-        "price": 0,
-        "description": "Wallet infrastructure using account abstraction and batched transactions",
-        "starred": "FALSE",
-        "actionButtons": [
-          {
-            "label": "Docs",
-            "url": "https://etherspot.fyi/",
-            "type": "external"
-          }
-        ]
-      },
-      "tenderly": {
-        "tag": ["Debugging", "Monitoring", "Simulation"],
-        "toolName": "Tenderly",
-        "toolType": "SDK",
-        "price": "Subscription-based",
-        "description": "Development platform offering debugging, monitoring, and simulation services",
-        "starred": "FALSE",
-        "actionButtons": [
-          {
-            "label": "Docs",
-            "url": "https://docs.tenderly.co/node/rpc-reference/flare#integrations",
-            "type": "external"
-          }
-        ]
-      },
-      "thirdweb": {
-        "tag": [
-          "Smart Contract Development",
-          "No-code tools",
-          "Account abstraction",
-          "Payments",
-          "RPC"
-        ],
-        "toolName": "Thirdweb",
-        "toolType": "SDK",
-        "price": 0,
-        "description": "SDK for building, launching, and managing Web3 applications with minimal configuration",
-        "starred": "TRUE",
-        "actionButtons": [
-          {
-            "label": "Docs",
-            "url": "https://portal.thirdweb.com/",
-            "type": "external"
-          }
-        ]
-      }
+      "slug": "turnkey",
+      "tag": ["JavaScript", "Wallet SDK"],
+      "toolName": "Turnkey",
+      "toolType": "SDK",
+      "price": 0,
+      "description": "Single API for creating embedded wallets, smart signers, and automating onchain actions",
+      "starred": "FALSE",
+      "actionButtons": [
+        {
+          "label": "Docs",
+          "url": "https://docs.turnkey.com/",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "wagmi",
+      "tag": ["TypeScript", "React hooks", "Wallet SDK"],
+      "toolName": "Wagmi",
+      "toolType": "SDK",
+      "price": 0,
+      "description": "React hooks library streamlining wallet connections and contract interactions",
+      "starred": "TRUE",
+      "actionButtons": [
+        {
+          "label": "Docs",
+          "url": "https://wagmi.sh/",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "rainbowkit",
+      "tag": ["React hooks", "Wallet SDK"],
+      "toolName": "RainbowKit",
+      "toolType": "SDK",
+      "price": 0,
+      "description": "Customizable React components for wallet connections",
+      "starred": "FALSE",
+      "actionButtons": [
+        {
+          "label": "Docs",
+          "url": "https://rainbowkit.com/docs/introduction/",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "web3auth",
+      "tag": ["Social logins", "Wallet SDK"],
+      "toolName": "Web3Auth",
+      "toolType": "SDK",
+      "price": 0,
+      "description": "OAuth social logins with non-custodial key management for Web3 applications.",
+      "starred": "TRUE",
+      "actionButtons": [
+        {
+          "label": "Docs",
+          "url": "https://web3auth.io/docs/",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "etherspot",
+      "tag": ["Account abstraction", "Wallet SDK"],
+      "toolName": "Etherspot Prime SDK",
+      "toolType": "SDK",
+      "price": 0,
+      "description": "Wallet infrastructure using account abstraction and batched transactions",
+      "starred": "FALSE",
+      "actionButtons": [
+        {
+          "label": "Docs",
+          "url": "https://etherspot.fyi/",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "tenderly",
+      "tag": ["Debugging", "Monitoring", "Simulation"],
+      "toolName": "Tenderly",
+      "toolType": "SDK",
+      "price": "Subscription-based",
+      "description": "Development platform offering debugging, monitoring, and simulation services",
+      "starred": "FALSE",
+      "actionButtons": [
+        {
+          "label": "Docs",
+          "url": "https://docs.tenderly.co/node/rpc-reference/flare#integrations",
+          "type": "external"
+        }
+      ]
+    },
+    {
+      "slug": "thirdweb",
+      "tag": [
+        "Smart Contract Development",
+        "No-code tools",
+        "Account abstraction",
+        "Payments",
+        "RPC"
+      ],
+      "toolName": "Thirdweb",
+      "toolType": "SDK",
+      "price": 0,
+      "description": "SDK for building, launching, and managing Web3 applications with minimal configuration",
+      "starred": "TRUE",
+      "actionButtons": [
+        {
+          "label": "Docs",
+          "url": "https://portal.thirdweb.com/",
+          "type": "external"
+        }
+      ]
     }
   ]
 }
